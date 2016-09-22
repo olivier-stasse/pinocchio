@@ -171,5 +171,77 @@ BOOST_AUTO_TEST_CASE( test_QVA )
   rnea(model,data,q,v,a);
   BOOST_CHECK (expected.isApprox(data.tau,1e-7));  
 }
+
+BOOST_AUTO_TEST_CASE( test_Parent )
+{
+  std::string filename = "/opt/openrobots/share/hrp2_14_description/urdf/hrp2_14_reduced.urdf";
+
+  se3::Model model;
+  se3::urdf::buildModel(filename,se3::JointModelFreeFlyer(),model);
+  model.gravity.linear( Eigen::Vector3d(0,0,-9.8));
+  se3::Data data(model);
+  std::cout << "model.parents.size():" << model.parents.size() << std::endl;
+  std::cout << "model.njoints:" << model.njoints << std::endl;
+
+  se3::JointIndex l_wrist  = model.getFrameId("l_wrist");
+  se3::JointIndex r_wrist  = model.getFrameId("r_wrist");
+  std::cout << "l_wrist:" << l_wrist << std::endl
+	    << "r_wrist:" << r_wrist << std::endl;
+  BOOST_CHECK (model.parents.size()==model.njoints);  
+}
+
+BOOST_AUTO_TEST_CASE( test_Parent2 )
+{
+  std::string filename = PINOCCHIO_SOURCE_DIR"/models/simple_humanoid.urdf";
+
+  se3::Model model;
+  se3::urdf::buildModel(filename,se3::JointModelFreeFlyer(),model);
+  model.gravity.linear( Eigen::Vector3d(0,0,-9.8));
+  se3::Data data(model);
+
+  std::vector<std::string> vecOfName;
+  vecOfName.push_back(std::string("CHEST"));
+  vecOfName.push_back(std::string("WAIST_P"));
+  vecOfName.push_back(std::string("WAIST_R"));
+  vecOfName.push_back(std::string("LARM_WRIST_R"));
+  vecOfName.push_back(std::string("LARM_WRIST_P"));
+  vecOfName.push_back(std::string("LARM_WRIST_Y"));
+  vecOfName.push_back(std::string("LARM_ELBOW"));
+  vecOfName.push_back(std::string("LARM_SHOULDER_Y"));
+  vecOfName.push_back(std::string("LARM_SHOULDER_R"));
+  vecOfName.push_back(std::string("LARM_SHOULDER_P"));
+  vecOfName.push_back(std::string("LLEG_ANKLE_R"));
+  vecOfName.push_back(std::string("LLEG_ANKLE_P"));
+  vecOfName.push_back(std::string("LLEG_KNEE"));
+  vecOfName.push_back(std::string("LLEG_HIP_Y"));
+  vecOfName.push_back(std::string("LLEG_HIP_P"));
+  vecOfName.push_back(std::string("LLEG_HIP_R"));
+  vecOfName.push_back(std::string("RARM_WRIST_R"));
+  vecOfName.push_back(std::string("RARM_WRIST_P"));
+  vecOfName.push_back(std::string("RARM_WRIST_Y"));
+  vecOfName.push_back(std::string("RARM_ELBOW"));
+  vecOfName.push_back(std::string("RARM_SHOULDER_Y"));
+  vecOfName.push_back(std::string("RARM_SHOULDER_R"));
+  vecOfName.push_back(std::string("RARM_SHOULDER_P"));
+  vecOfName.push_back(std::string("RLEG_ANKLE_R"));
+  vecOfName.push_back(std::string("RLEG_ANKLE_P"));
+  vecOfName.push_back(std::string("RLEG_KNEE"));
+  vecOfName.push_back(std::string("RLEG_HIP_Y"));
+  vecOfName.push_back(std::string("RLEG_HIP_P"));
+  vecOfName.push_back(std::string("RLEG_HIP_R"));
+
+
+  std::cout << "model.parents.size():" << model.parents.size() << std::endl;
+  std::cout << "model.njoints:" << model.njoints << std::endl;
+  bool good=true;
+  for(unsigned int i=0;i<vecOfName.size();i++)
+    {
+      se3::JointIndex idTest  = model.getFrameId(vecOfName[i].c_str());
+      std::cout << vecOfName[i] << " idTest:" << idTest << std::endl;
+      if (idTest > model.njoints)
+	good=false;
+    }
+  BOOST_CHECK (good);  
+}
   
 BOOST_AUTO_TEST_SUITE_END ()

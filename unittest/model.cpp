@@ -37,9 +37,12 @@ BOOST_AUTO_TEST_CASE(test_model_subtree)
   BOOST_CHECK(idx_larm1<model.njoints);
   Model::IndexVector subtree = model.subtrees[idx_larm1];
   BOOST_CHECK(subtree.size()==6);
-  
+  std::cout << model.njoints << " " << model.parents.size() << std::endl;
+
   for(size_t i=1; i<subtree.size();++i)
-    BOOST_CHECK(model.parents[subtree[i]]==subtree[i-1]);
+    { std::cout << subtree[i] << " " <<std::endl;
+      BOOST_CHECK(model.parents[subtree[i]]==subtree[i-1]);
+    }
 }
 
 BOOST_AUTO_TEST_SUITE_END()
