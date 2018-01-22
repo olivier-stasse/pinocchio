@@ -1,7 +1,6 @@
 var searchData=
 [
   ['modeling_20rigid_20bodies',['Modeling rigid bodies',['../Chapters_RigidBodyDynamicModel.html',1,'Chapters']]],
-  ['m',['M',['../structse3_1_1Data.html#af45c727f4b72148e675a335ac76522d2',1,'se3::Data']]],
   ['m_5fidx_5fq',['m_idx_q',['../structse3_1_1JointModelComposite.html#a332739c75a09f24c10fee03a56bfc5cd',1,'se3::JointModelComposite']]],
   ['m_5fidx_5fv',['m_idx_v',['../structse3_1_1JointModelComposite.html#a8f16b9d757c434dc8ea9602d20894553',1,'se3::JointModelComposite']]],
   ['m_5fnq',['m_nq',['../structse3_1_1JointModelComposite.html#af6099861d37706bb1be1572a3ac6b25e',1,'se3::JointModelComposite']]],

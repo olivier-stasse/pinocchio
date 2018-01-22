@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../structse3_1_1GeometryObject.html#ac6e055194cfe31828acc2a40e8ce6a0b',1,'se3::GeometryObject::name()'],['../structse3_1_1FrameTpl.html#a9b45b3e13bd9167aab02e17e08916231',1,'se3::FrameTpl::name()']]],
+  ['name',['name',['../structse3_1_1GeometryObject.html#ac6e055194cfe31828acc2a40e8ce6a0b',1,'se3::GeometryObject::name()'],['../structse3_1_1FrameTpl.html#a9b45b3e13bd9167aab02e17e08916231',1,'se3::FrameTpl::name()'],['../structse3_1_1Model.html#a9b45b3e13bd9167aab02e17e08916231',1,'se3::Model::name()']]],
   ['names',['names',['../structse3_1_1Model.html#a9c4192866025823ecd5592526c757c0b',1,'se3::Model']]],
   ['nbodies',['nbodies',['../structse3_1_1Model.html#a9128b18efbcaaf48278cfb37c682d193',1,'se3::Model']]],
   ['neutralconfiguration',['neutralConfiguration',['../structse3_1_1Model.html#af6737eebddfbf77b59984bc40e0c0123',1,'se3::Model']]],
