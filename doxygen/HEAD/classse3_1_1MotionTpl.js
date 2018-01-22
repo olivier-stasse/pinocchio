@@ -7,6 +7,7 @@ var classse3_1_1MotionTpl =
     [ "__mequ__", "classse3_1_1MotionTpl.html#a7f3fbf287f9d62e11c83c6409658cbbb", null ],
     [ "__minus__", "classse3_1_1MotionTpl.html#a8417127ecb770e7304686c0dfdf66299", null ],
     [ "__minus__", "classse3_1_1MotionTpl.html#a1059a7d0e3208393b30ea96cdaffa9fa", null ],
+    [ "__mult__", "classse3_1_1MotionTpl.html#a7c2f1ad67c169f69b8e8543d8b33ebb5", null ],
     [ "__pequ__", "classse3_1_1MotionTpl.html#afb003d03cca903a8690122fb8429778c", null ],
     [ "__plus__", "classse3_1_1MotionTpl.html#aab402a29048629e0fa105592af9a4e27", null ],
     [ "angular_impl", "classse3_1_1MotionTpl.html#a3e1cefced9e33bbafb737495f24030b2", null ],
@@ -29,6 +30,7 @@ var classse3_1_1MotionTpl =
     [ "setZero", "classse3_1_1MotionTpl.html#ace06435f9321e664c7958f4f895c6b75", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "classse3_1_1MotionTpl.html#a16242fc2e57d047787739a3fd7cc5de5", null ],
     [ "toActionMatrix_impl", "classse3_1_1MotionTpl.html#af86ccebcb4a37654a20d79ee1e665ddf", null ],
+    [ "toDualActionMatrix_impl", "classse3_1_1MotionTpl.html#afda0098d34e4be213682b63dc2bac808", null ],
     [ "toVector_impl", "classse3_1_1MotionTpl.html#a209a0470297db8b8cfbe4ba726d3b66f", null ],
     [ "toVector_impl", "classse3_1_1MotionTpl.html#a84ddfeee3362c7a7a3364ee1be0a2ba3", null ],
     [ "data", "classse3_1_1MotionTpl.html#a90a62deaf789cf40edf331b130802889", null ]

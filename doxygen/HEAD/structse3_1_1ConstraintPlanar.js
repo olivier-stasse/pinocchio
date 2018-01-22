@@ -11,5 +11,6 @@ var structse3_1_1ConstraintPlanar =
     [ "operator*", "structse3_1_1ConstraintPlanar.html#a00609c23156378127aaf8e426735cdf0", null ],
     [ "se3Action", "structse3_1_1ConstraintPlanar.html#ab1c84b8c558a07a3b64e735374578488", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintPlanar.html#a64ca7800c990c21501f00a8553de597a", null ],
-    [ "transpose", "structse3_1_1ConstraintPlanar.html#aa17ceee3ea2f767bf006b080bd6a1e56", null ]
+    [ "transpose", "structse3_1_1ConstraintPlanar.html#aa17ceee3ea2f767bf006b080bd6a1e56", null ],
+    [ "variation", "structse3_1_1ConstraintPlanar.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

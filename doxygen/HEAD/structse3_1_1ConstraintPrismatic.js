@@ -11,5 +11,6 @@ var structse3_1_1ConstraintPrismatic =
     [ "operator*", "structse3_1_1ConstraintPrismatic.html#aa83058e5750c7d493c3aa4e4bca15a17", null ],
     [ "se3Action", "structse3_1_1ConstraintPrismatic.html#a02b9708c6cf4c80a3bbd6095fa108f83", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "structse3_1_1ConstraintPrismatic.html#a0dc4d1066bca64301ee2ec15636b2016", null ],
-    [ "transpose", "structse3_1_1ConstraintPrismatic.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ]
+    [ "transpose", "structse3_1_1ConstraintPrismatic.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintPrismatic.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

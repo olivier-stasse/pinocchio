@@ -25,6 +25,7 @@ var classse3_1_1InertiaBase =
     [ "setRandom", "classse3_1_1InertiaBase.html#a64dc9bf69f687795ab98527c35f4ea93", null ],
     [ "setZero", "classse3_1_1InertiaBase.html#a47affd1a10b589811fc4828c1a2e0c6d", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "classse3_1_1InertiaBase.html#aadce40ea86c3617b5db6030db90395fe", null ],
+    [ "variation", "classse3_1_1InertiaBase.html#a42f98adadc789b792efbf0e1000b294a", null ],
     [ "vtiv", "classse3_1_1InertiaBase.html#a26c9e45c452416625db2a377a3d67ac7", null ],
     [ "operator<<", "classse3_1_1InertiaBase.html#aad72c0b82ef0f76d57577fdced72016b", null ]
 ];

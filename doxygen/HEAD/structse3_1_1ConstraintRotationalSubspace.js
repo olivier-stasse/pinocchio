@@ -10,5 +10,6 @@ var structse3_1_1ConstraintRotationalSubspace =
     [ "operator ConstraintXd", "structse3_1_1ConstraintRotationalSubspace.html#a808b3c9deec5183b94a37aa30c733523", null ],
     [ "se3Action", "structse3_1_1ConstraintRotationalSubspace.html#a1b2b3a5d4353418821208eff162c2f5d", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintRotationalSubspace.html#a6f369ff55b3a71f52bc1fc105d69e460", null ],
-    [ "transpose", "structse3_1_1ConstraintRotationalSubspace.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ]
+    [ "transpose", "structse3_1_1ConstraintRotationalSubspace.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintRotationalSubspace.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

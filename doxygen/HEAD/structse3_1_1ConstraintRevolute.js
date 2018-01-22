@@ -11,5 +11,6 @@ var structse3_1_1ConstraintRevolute =
     [ "operator*", "structse3_1_1ConstraintRevolute.html#a8ab451d3b175d63a49d61a63a2812af1", null ],
     [ "se3Action", "structse3_1_1ConstraintRevolute.html#a02b9708c6cf4c80a3bbd6095fa108f83", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "structse3_1_1ConstraintRevolute.html#ad47c6dfc942f594a433317f9a8743e15", null ],
-    [ "transpose", "structse3_1_1ConstraintRevolute.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ]
+    [ "transpose", "structse3_1_1ConstraintRevolute.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintRevolute.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

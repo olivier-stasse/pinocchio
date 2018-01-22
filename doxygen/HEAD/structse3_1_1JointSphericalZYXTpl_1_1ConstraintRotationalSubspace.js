@@ -2,6 +2,7 @@ var structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace =
 [
     [ "ConstraintTranspose", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace_1_1ConstraintTranspose.html", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace_1_1ConstraintTranspose" ],
     [ "ConstraintDense", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a1fceeefefb0f14c9aa0ba94391bbca92", null ],
+    [ "DenseBase", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a9554ab8cf458a87647ab4c526344d510", null ],
     [ "Matrix3", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a4ca6ff167141f4314e74720823e7d5f3", null ],
     [ "Scalar", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#aea29b63b6c32046ae9a471d82c5cf869", null ],
     [ "Vector3", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a437ab545d01904d1fcae403c95631ac9", null ],
@@ -18,5 +19,6 @@ var structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace =
     [ "operator*", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#ac2389827f9e15b716207d5b8bd539bb7", null ],
     [ "se3Action", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#af7ee0696bc95a6d79edd09a5d00dba06", null ],
     [ "transpose", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#aa17ceee3ea2f767bf006b080bd6a1e56", null ],
+    [ "variation", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a24d8ec7ac58cc41a88c46d98c2919810", null ],
     [ "S_minimal", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html#a9ecac4510f060a5052971d9d399eb545", null ]
 ];

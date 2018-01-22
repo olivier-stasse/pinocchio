@@ -294,6 +294,12 @@ var hierarchy =
       [ "JointVisitor< CrbaForwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
         [ "CrbaForwardStep", "structse3_1_1CrbaForwardStep.html", null ]
       ] ],
+      [ "JointVisitor< DCcrbaBackwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
+        [ "DCcrbaBackwardStep", "structse3_1_1DCcrbaBackwardStep.html", null ]
+      ] ],
+      [ "JointVisitor< DCcrbaForwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
+        [ "DCcrbaForwardStep", "structse3_1_1DCcrbaForwardStep.html", null ]
+      ] ],
       [ "JointVisitor< emptyForwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
         [ "emptyForwardStep", "structse3_1_1emptyForwardStep.html", null ]
       ] ],
@@ -314,6 +320,9 @@ var hierarchy =
       ] ],
       [ "JointVisitor< JacobiansForwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
         [ "JacobiansForwardStep", "structse3_1_1JacobiansForwardStep.html", null ]
+      ] ],
+      [ "JointVisitor< JacobiansTimeVariationForwardStep >", "structse3_1_1fusion_1_1JointVisitor.html", [
+        [ "JacobiansTimeVariationForwardStep", "structse3_1_1JacobiansTimeVariationForwardStep.html", null ]
       ] ],
       [ "JointVisitor< JointCalcAbaVisitor >", "structse3_1_1fusion_1_1JointVisitor.html", [
         [ "JointCalcAbaVisitor", "structse3_1_1JointCalcAbaVisitor.html", null ]
@@ -436,11 +445,11 @@ var hierarchy =
     [ "traits< struct ConstraintRotationalSubspace >", "structse3_1_1traits_3_01struct_01ConstraintRotationalSubspace_01_4.html", null ],
     [ "traits< VectorSpaceOperation< Size > >", "structse3_1_1traits_3_01VectorSpaceOperation_3_01Size_01_4_01_4.html", null ],
     [ "ConstraintTpl< _Dim, _Scalar, _Options >::Transpose", "structse3_1_1ConstraintTpl_1_1Transpose.html", null ],
-    [ "ConstraintPrismaticUnaligned::TransposeConst", "structse3_1_1ConstraintPrismaticUnaligned_1_1TransposeConst.html", null ],
     [ "ConstraintRotationalSubspace::TransposeConst", "structse3_1_1ConstraintRotationalSubspace_1_1TransposeConst.html", null ],
-    [ "ConstraintIdentity::TransposeConst", "structse3_1_1ConstraintIdentity_1_1TransposeConst.html", null ],
     [ "ConstraintPrismatic< axis >::TransposeConst", "structse3_1_1ConstraintPrismatic_1_1TransposeConst.html", null ],
     [ "ConstraintRevolute< axis >::TransposeConst", "structse3_1_1ConstraintRevolute_1_1TransposeConst.html", null ],
+    [ "ConstraintIdentity::TransposeConst", "structse3_1_1ConstraintIdentity_1_1TransposeConst.html", null ],
+    [ "ConstraintPrismaticUnaligned::TransposeConst", "structse3_1_1ConstraintPrismaticUnaligned_1_1TransposeConst.html", null ],
     [ "ConstraintRevoluteUnaligned::TransposeConst", "structse3_1_1ConstraintRevoluteUnaligned_1_1TransposeConst.html", null ],
     [ "vector< T >", null, [
       [ "aligned_vector< Eigen::Vector3d >", "classse3_1_1container_1_1aligned__vector.html", null ],

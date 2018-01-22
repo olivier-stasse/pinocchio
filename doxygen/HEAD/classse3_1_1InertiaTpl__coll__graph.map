@@ -1,4 +1,5 @@
 <map id="InertiaTpl&lt; _Scalar, _Options &gt;" name="InertiaTpl&lt; _Scalar, _Options &gt;">
-<area shape="rect" id="node2" href="$classse3_1_1InertiaBase.html" title="InertiaBase\&lt; InertiaTpl\l\&lt; _Scalar, _Options \&gt; \&gt;" alt="" coords="5,6,168,47"/>
-<area shape="rect" id="node3" href="$classse3_1_1Symmetric3Tpl.html" title="Symmetric3Tpl\&lt; double, 0 \&gt;" alt="" coords="192,13,379,40"/>
+<area shape="rect" id="node2" href="$classse3_1_1InertiaBase.html" title="InertiaBase\&lt; InertiaTpl\l\&lt; _Scalar, _Options \&gt; \&gt;" alt="" coords="17,5,180,47"/>
+<area shape="rect" id="node3" href="$classse3_1_1Symmetric3Tpl.html" title="Symmetric3Tpl\&lt; double, 0 \&gt;" alt="" coords="5,71,192,98"/>
+<area shape="rect" id="node4" href="$structse3_1_1Symmetric3Tpl_1_1AlphaSkewSquare.html" title="AlphaSkewSquare" alt="" coords="34,122,163,149"/>
 </map>

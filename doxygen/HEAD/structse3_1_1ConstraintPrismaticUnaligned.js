@@ -14,5 +14,6 @@ var structse3_1_1ConstraintPrismaticUnaligned =
     [ "se3Action", "structse3_1_1ConstraintPrismaticUnaligned.html#a03baf11d5a06e9fdaa2babf9b4a91b49", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintPrismaticUnaligned.html#a13e1308575288b6c01646649ddb55826", null ],
     [ "transpose", "structse3_1_1ConstraintPrismaticUnaligned.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintPrismaticUnaligned.html#a24d8ec7ac58cc41a88c46d98c2919810", null ],
     [ "axis", "structse3_1_1ConstraintPrismaticUnaligned.html#aa8edd0f9d1f8de22292eb2c2429224fc", null ]
 ];

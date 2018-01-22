@@ -12,5 +12,6 @@ var structse3_1_1ConstraintTranslationSubspace =
     [ "operator*", "structse3_1_1ConstraintTranslationSubspace.html#a856effce8d878fec3f3969e6b6bdb923", null ],
     [ "se3Action", "structse3_1_1ConstraintTranslationSubspace.html#a1b2b3a5d4353418821208eff162c2f5d", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintTranslationSubspace.html#ae9bcd44c3302c69e07892f3affe0762c", null ],
-    [ "transpose", "structse3_1_1ConstraintTranslationSubspace.html#aa17ceee3ea2f767bf006b080bd6a1e56", null ]
+    [ "transpose", "structse3_1_1ConstraintTranslationSubspace.html#aa17ceee3ea2f767bf006b080bd6a1e56", null ],
+    [ "variation", "structse3_1_1ConstraintTranslationSubspace.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

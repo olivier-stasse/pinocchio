@@ -26,9 +26,11 @@ var classse3_1_1InertiaTpl =
     [ "setRandom", "classse3_1_1InertiaTpl.html#a64dc9bf69f687795ab98527c35f4ea93", null ],
     [ "setZero", "classse3_1_1InertiaTpl.html#a47affd1a10b589811fc4828c1a2e0c6d", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "classse3_1_1InertiaTpl.html#a63b92e23cba878610ac8432a60c4ad2f", null ],
+    [ "variation", "classse3_1_1InertiaTpl.html#a42f98adadc789b792efbf0e1000b294a", null ],
     [ "vtiv_impl", "classse3_1_1InertiaTpl.html#ab943cf0d17754000e84d21b5c8bf9c58", null ],
     [ "vxiv", "classse3_1_1InertiaTpl.html#a3eddbdd7bf71e05a5f2368df462ff8e5", null ],
     [ "InertiaBase< InertiaTpl< _Scalar, _Options > >", "classse3_1_1InertiaTpl.html#afcdb5d249f9f76d32773b524dc1c3438", null ],
+    [ "AlphaSkewSquare", "classse3_1_1InertiaTpl.html#a7685262a619792586874fbc32af68ede", null ],
     [ "c", "classse3_1_1InertiaTpl.html#a12e568d3f2496e82d79f267b3e0d6e6f", null ],
     [ "I", "classse3_1_1InertiaTpl.html#a27ca7b86a56debc8b0f4c86415edeb4d", null ],
     [ "m", "classse3_1_1InertiaTpl.html#ac72bba44a313a5ebe01eb9f853ee8918", null ]

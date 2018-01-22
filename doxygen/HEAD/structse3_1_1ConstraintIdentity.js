@@ -10,5 +10,6 @@ var structse3_1_1ConstraintIdentity =
     [ "operator ConstraintXd", "structse3_1_1ConstraintIdentity.html#a808b3c9deec5183b94a37aa30c733523", null ],
     [ "se3Action", "structse3_1_1ConstraintIdentity.html#a3744eec81258ca3064b82563f19d3eff", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintIdentity.html#a211e4f0b7bb5c50b8312ea62e40baa56", null ],
-    [ "transpose", "structse3_1_1ConstraintIdentity.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ]
+    [ "transpose", "structse3_1_1ConstraintIdentity.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintIdentity.html#a24d8ec7ac58cc41a88c46d98c2919810", null ]
 ];

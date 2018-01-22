@@ -15,6 +15,7 @@ var classse3_1_1MotionBase =
     [ "operator Matrix6", "classse3_1_1MotionBase.html#af32be6900116db919e6d908c1f89f8fa", null ],
     [ "operator Vector6", "classse3_1_1MotionBase.html#af77e1040987eccd07a3dcb8a8a8a026d", null ],
     [ "operator!=", "classse3_1_1MotionBase.html#aa4857d39243c1bd6f443eb16ecde6931", null ],
+    [ "operator*", "classse3_1_1MotionBase.html#aaf5576e08083a9c827b75111b9b085de", null ],
     [ "operator+", "classse3_1_1MotionBase.html#a715bfbb4cf11b27661a7ac1eabad97ce", null ],
     [ "operator+=", "classse3_1_1MotionBase.html#adcc96cd615f534c38b1b2f8c95065a3a", null ],
     [ "operator-", "classse3_1_1MotionBase.html#a516ae8b9dbfacd3556a8a40c8e8f069b", null ],
@@ -25,6 +26,7 @@ var classse3_1_1MotionBase =
     [ "se3ActionInverse", "classse3_1_1MotionBase.html#a99ead4c43d3d8458ae8206a68c171589", null ],
     [ "SPATIAL_TYPEDEF_TEMPLATE", "classse3_1_1MotionBase.html#aadce40ea86c3617b5db6030db90395fe", null ],
     [ "toActionMatrix", "classse3_1_1MotionBase.html#ae15c3cbc53ead8a6aa0f7cd667e323c4", null ],
+    [ "toDualActionMatrix", "classse3_1_1MotionBase.html#ac45b428fe8fff7275ed33ff4a43a9471", null ],
     [ "toVector", "classse3_1_1MotionBase.html#a0ed2bd0cab6cc57a14365360b4552e34", null ],
     [ "toVector", "classse3_1_1MotionBase.html#afe968c40cb31067f907cc9eb7cdfe24e", null ],
     [ "operator<<", "classse3_1_1MotionBase.html#a283d4c9a53386845429f51c27d84b41c", null ]

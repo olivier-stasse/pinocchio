@@ -14,5 +14,6 @@ var structse3_1_1ConstraintRevoluteUnaligned =
     [ "se3Action", "structse3_1_1ConstraintRevoluteUnaligned.html#a02b9708c6cf4c80a3bbd6095fa108f83", null ],
     [ "SPATIAL_TYPEDEF_NO_TEMPLATE", "structse3_1_1ConstraintRevoluteUnaligned.html#afff01a2d80f90fbfe029b07b2ad1ab0b", null ],
     [ "transpose", "structse3_1_1ConstraintRevoluteUnaligned.html#a36cb569b8db0631844ae3dbf0f6ecb48", null ],
+    [ "variation", "structse3_1_1ConstraintRevoluteUnaligned.html#a24d8ec7ac58cc41a88c46d98c2919810", null ],
     [ "axis", "structse3_1_1ConstraintRevoluteUnaligned.html#aa8edd0f9d1f8de22292eb2c2429224fc", null ]
 ];
