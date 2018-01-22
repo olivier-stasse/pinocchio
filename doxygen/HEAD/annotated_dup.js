@@ -2,7 +2,7 @@ var annotated_dup =
 [
     [ "se3", null, [
       [ "container", null, [
-        [ "aligned_vector", "classse3_1_1container_1_1aligned__vector.html", "classse3_1_1container_1_1aligned__vector" ]
+        [ "aligned_vector", "structse3_1_1container_1_1aligned__vector.html", "structse3_1_1container_1_1aligned__vector" ]
       ] ],
       [ "details", null, [
         [ "Dispatch", "structse3_1_1details_1_1Dispatch.html", null ],
@@ -20,12 +20,32 @@ var annotated_dup =
         [ "CartesianVector3", "structse3_1_1revolute_1_1CartesianVector3.html", "structse3_1_1revolute_1_1CartesianVector3" ]
       ] ],
       [ "urdf", null, [
+        [ "details", null, [
+          [ "UrdfTree", "structse3_1_1urdf_1_1details_1_1UrdfTree.html", "structse3_1_1urdf_1_1details_1_1UrdfTree" ]
+        ] ],
         [ "ParseRootTreeVisitor", "structse3_1_1urdf_1_1ParseRootTreeVisitor.html", "structse3_1_1urdf_1_1ParseRootTreeVisitor" ]
       ] ],
       [ "AbaBackwardStep", "structse3_1_1AbaBackwardStep.html", "structse3_1_1AbaBackwardStep" ],
       [ "AbaForwardStep1", "structse3_1_1AbaForwardStep1.html", "structse3_1_1AbaForwardStep1" ],
       [ "AbaForwardStep2", "structse3_1_1AbaForwardStep2.html", "structse3_1_1AbaForwardStep2" ],
+      [ "ActuatorDataBase", "structse3_1_1ActuatorDataBase.html", "structse3_1_1ActuatorDataBase" ],
+      [ "ActuatorDCFirstOrderMotorData", "classse3_1_1ActuatorDCFirstOrderMotorData.html", "classse3_1_1ActuatorDCFirstOrderMotorData" ],
+      [ "ActuatorDCFirstOrderMotorModel", "classse3_1_1ActuatorDCFirstOrderMotorModel.html", "classse3_1_1ActuatorDCFirstOrderMotorModel" ],
+      [ "ActuatorDCMotorData", "classse3_1_1ActuatorDCMotorData.html", "classse3_1_1ActuatorDCMotorData" ],
+      [ "ActuatorDCMotorModel", "classse3_1_1ActuatorDCMotorModel.html", "classse3_1_1ActuatorDCMotorModel" ],
+      [ "ActuatorDCNonLinearMotorData", "classse3_1_1ActuatorDCNonLinearMotorData.html", "classse3_1_1ActuatorDCNonLinearMotorData" ],
+      [ "ActuatorDCNonLinearMotorModel", "classse3_1_1ActuatorDCNonLinearMotorModel.html", "classse3_1_1ActuatorDCNonLinearMotorModel" ],
+      [ "ActuatorModelBase", "structse3_1_1ActuatorModelBase.html", "structse3_1_1ActuatorModelBase" ],
+      [ "adb_traits", "structse3_1_1adb__traits.html", null ],
+      [ "adb_traits< ActuatorDCFirstOrderMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCFirstOrderMotorData_3_01Scalar___01_4_01_4.html", "structse3_1_1adb__traits_3_01ActuatorDCFirstOrderMotorData_3_01Scalar___01_4_01_4" ],
+      [ "adb_traits< ActuatorDCMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCMotorData_3_01Scalar___01_4_01_4.html", "structse3_1_1adb__traits_3_01ActuatorDCMotorData_3_01Scalar___01_4_01_4" ],
+      [ "adb_traits< ActuatorDCNonLinearMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCNonLinearMotorData_3_01Scalar___01_4_01_4.html", "structse3_1_1adb__traits_3_01ActuatorDCNonLinearMotorData_3_01Scalar___01_4_01_4" ],
       [ "AlgorithmCheckerBase", "structse3_1_1AlgorithmCheckerBase.html", "structse3_1_1AlgorithmCheckerBase" ],
+      [ "AlgorithmCheckerList", "structse3_1_1AlgorithmCheckerList.html", "structse3_1_1AlgorithmCheckerList" ],
+      [ "amb_traits", "structse3_1_1amb__traits.html", null ],
+      [ "amb_traits< ActuatorDCFirstOrderMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCFirstOrderMotorModel_3_01Scalar___01_4_01_4.html", "structse3_1_1amb__traits_3_01ActuatorDCFirstOrderMotorModel_3_01Scalar___01_4_01_4" ],
+      [ "amb_traits< ActuatorDCMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCMotorModel_3_01Scalar___01_4_01_4.html", "structse3_1_1amb__traits_3_01ActuatorDCMotorModel_3_01Scalar___01_4_01_4" ],
+      [ "amb_traits< ActuatorDCNonLinearMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCNonLinearMotorModel_3_01Scalar___01_4_01_4.html", "structse3_1_1amb__traits_3_01ActuatorDCNonLinearMotorModel_3_01Scalar___01_4_01_4" ],
       [ "BiasZero", "structse3_1_1BiasZero.html", "structse3_1_1BiasZero" ],
       [ "CartesianProductOperation", "structse3_1_1CartesianProductOperation.html", "structse3_1_1CartesianProductOperation" ],
       [ "CATBackwardStep", "structse3_1_1CATBackwardStep.html", "structse3_1_1CATBackwardStep" ],
@@ -46,7 +66,6 @@ var annotated_dup =
       [ "CrbaBackwardStep", "structse3_1_1CrbaBackwardStep.html", "structse3_1_1CrbaBackwardStep" ],
       [ "CrbaForwardStep", "structse3_1_1CrbaForwardStep.html", "structse3_1_1CrbaForwardStep" ],
       [ "CreateJointData", "classse3_1_1CreateJointData.html", "classse3_1_1CreateJointData" ],
-      [ "Data", "structse3_1_1Data.html", "structse3_1_1Data" ],
       [ "DCcrbaBackwardStep", "structse3_1_1DCcrbaBackwardStep.html", "structse3_1_1DCcrbaBackwardStep" ],
       [ "DCcrbaForwardStep", "structse3_1_1DCcrbaForwardStep.html", "structse3_1_1DCcrbaForwardStep" ],
       [ "DifferentiateStep", "structse3_1_1DifferentiateStep.html", "structse3_1_1DifferentiateStep" ],
@@ -142,7 +161,6 @@ var annotated_dup =
         [ "operation< JointModelRevoluteUnbounded< Axis > >", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelRevoluteUnbounded_3_01Axis_01_4_01_4.html", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelRevoluteUnbounded_3_01Axis_01_4_01_4" ],
         [ "operation< JointModelSpherical >", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelSpherical_01_4.html", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelSpherical_01_4" ]
       ] ],
-      [ "Model", "structse3_1_1Model.html", "structse3_1_1Model" ],
       [ "MotionBase", "classse3_1_1MotionBase.html", "classse3_1_1MotionBase" ],
       [ "MotionPlanar", "structse3_1_1MotionPlanar.html", "structse3_1_1MotionPlanar" ],
       [ "MotionPrismatic", "structse3_1_1MotionPrismatic.html", "structse3_1_1MotionPrismatic" ],
@@ -155,6 +173,7 @@ var annotated_dup =
       [ "NLEBackwardStep", "structse3_1_1NLEBackwardStep.html", "structse3_1_1NLEBackwardStep" ],
       [ "NLEForwardStep", "structse3_1_1NLEForwardStep.html", "structse3_1_1NLEForwardStep" ],
       [ "NormalizeStep", "structse3_1_1NormalizeStep.html", "structse3_1_1NormalizeStep" ],
+      [ "NormalizeStepAlgo", "structse3_1_1NormalizeStepAlgo.html", null ],
       [ "RandomConfigurationStep", "structse3_1_1RandomConfigurationStep.html", "structse3_1_1RandomConfigurationStep" ],
       [ "RandomConfigurationStepAlgo", "structse3_1_1RandomConfigurationStepAlgo.html", null ],
       [ "RneaBackwardStep", "structse3_1_1RneaBackwardStep.html", "structse3_1_1RneaBackwardStep" ],

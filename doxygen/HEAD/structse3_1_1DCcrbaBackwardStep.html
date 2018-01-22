@@ -44,7 +44,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a>
-   &#160;<span id="projectnumber">1.2.5-dirty</span>
+   &#160;<span id="projectnumber">1.2.6-3-g69bda-dirty</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,7 +124,7 @@ Collaboration diagram for DCcrbaBackwardStep:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab86a27297c84a81f5e1463d9470f696e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab86a27297c84a81f5e1463d9470f696e"></a>
-typedef boost::fusion::vector&lt; const <a class="el" href="structse3_1_1Model.html">se3::Model</a> &amp;, <a class="el" href="structse3_1_1Data.html">se3::Data</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ArgsType</b></td></tr>
+typedef boost::fusion::vector&lt; const se3::Model &amp;, se3::Data &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ArgsType</b></td></tr>
 <tr class="separator:ab86a27297c84a81f5e1463d9470f696e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -141,7 +141,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (const
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a728a81af9510d0aebfe09bcb69112a0b"><td class="memTemplParams" colspan="2"><a class="anchor" id="a728a81af9510d0aebfe09bcb69112a0b"></a>
 template&lt;typename JointModel &gt; </td></tr>
-<tr class="memitem:a728a81af9510d0aebfe09bcb69112a0b"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>algo</b> (const <a class="el" href="structse3_1_1JointModelBase.html">se3::JointModelBase</a>&lt; <a class="el" href="structse3_1_1JointModel.html">JointModel</a> &gt; &amp;jmodel, <a class="el" href="structse3_1_1JointDataBase.html">se3::JointDataBase</a>&lt; typename JointModel::JointDataDerived &gt; &amp;jdata, const <a class="el" href="structse3_1_1Model.html">se3::Model</a> &amp;model, <a class="el" href="structse3_1_1Data.html">se3::Data</a> &amp;data)</td></tr>
+<tr class="memitem:a728a81af9510d0aebfe09bcb69112a0b"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>algo</b> (const <a class="el" href="structse3_1_1JointModelBase.html">se3::JointModelBase</a>&lt; <a class="el" href="structse3_1_1JointModel.html">JointModel</a> &gt; &amp;jmodel, <a class="el" href="structse3_1_1JointDataBase.html">se3::JointDataBase</a>&lt; typename JointModel::JointDataDerived &gt; &amp;jdata, const se3::Model &amp;model, se3::Data &amp;data)</td></tr>
 <tr class="separator:a728a81af9510d0aebfe09bcb69112a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afba133fddefaf172e25b0c1477d3153b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afba133fddefaf172e25b0c1477d3153b"></a>
 static Inertia::Matrix6&#160;</td><td class="memItemRight" valign="bottom"><b>SE3actOn</b> (const <a class="el" href="classse3_1_1SE3Tpl.html">SE3</a> &amp;M, const Inertia::Matrix6 &amp;I)</td></tr>
@@ -163,7 +163,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (const
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>se3</b></li><li class="navelem"><a class="el" href="structse3_1_1DCcrbaBackwardStep.html">DCcrbaBackwardStep</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 03:25:33 for pinocchio by
+    <li class="footer">Generated on Mon Jan 22 2018 04:16:46 for pinocchio by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

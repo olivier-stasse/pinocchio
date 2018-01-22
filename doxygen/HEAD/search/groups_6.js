@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joints',['Joints',['../group__Joints__group.html',1,'']]]
+  ['inertia',['Inertia',['../group__Inertia__group.html',1,'']]]
 ];

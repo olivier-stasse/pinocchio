@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::GeometryObject \&gt;">
+<g id="a_node2"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::GeometryObject \&gt;">
 <polygon fill="white" stroke="black" points="481,-42 481,-72 585,-72 585,-42 481,-42"/>
 <text text-anchor="start" x="489" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="533" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00">::GeometryObject &gt;</text>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['data',['Data',['../structse3_1_1Data.html',1,'se3']]],
   ['dccrbabackwardstep',['DCcrbaBackwardStep',['../structse3_1_1DCcrbaBackwardStep.html',1,'se3']]],
   ['dccrbaforwardstep',['DCcrbaForwardStep',['../structse3_1_1DCcrbaForwardStep.html',1,'se3']]],
   ['differentiatestep',['DifferentiateStep',['../structse3_1_1DifferentiateStep.html',1,'se3']]],

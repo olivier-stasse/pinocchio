@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structse3_1_1prismatic_1_1CartesianVector3.html" title="CartesianVector3\&lt; axis \&gt;" alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" href="$structse3_1_1ActuatorDataBase.html" title="ActuatorDataBase\&lt; Actuator\lDCNonLinearMotorData\&lt; Scalar_ \&gt; \&gt;" alt="" coords="5,5,248,47"/>
+<area shape="rect" id="node2" href="$classse3_1_1ActuatorDCNonLinearMotorData.html" title="Template for handling data related to a non linear DC motor model. " alt="" coords="296,5,479,47"/>
 </map>

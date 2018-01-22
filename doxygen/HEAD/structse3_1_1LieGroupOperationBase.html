@@ -44,7 +44,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a>
-   &#160;<span id="projectnumber">1.2.5-dirty</span>
+   &#160;<span id="projectnumber">1.2.6-3-g69bda-dirty</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -140,6 +140,10 @@ API with return value as argument</h2></td></tr>
 <tr class="memitem:aff72256afacb6f1aff6baa0b0d8c97cd"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#aff72256afacb6f1aff6baa0b0d8c97cd">interpolate</a> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Scalar &amp;u, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="memdesc:aff72256afacb6f1aff6baa0b0d8c97cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolation between two joint's configurations.  <a href="#aff72256afacb6f1aff6baa0b0d8c97cd">More...</a><br /></td></tr>
 <tr class="separator:aff72256afacb6f1aff6baa0b0d8c97cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93613f8c5689475aee58a6cb283f56bf"><td class="memTemplParams" colspan="2">template&lt;class Config_t &gt; </td></tr>
+<tr class="memitem:a93613f8c5689475aee58a6cb283f56bf"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#a93613f8c5689475aee58a6cb283f56bf">normalize</a> (const Eigen::MatrixBase&lt; Config_t &gt; &amp;qout)</td></tr>
+<tr class="memdesc:a93613f8c5689475aee58a6cb283f56bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the joint configuration given as input. For instance, the quaternion must unitary.  <a href="#a93613f8c5689475aee58a6cb283f56bf">More...</a><br /></td></tr>
+<tr class="separator:a93613f8c5689475aee58a6cb283f56bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d6a057d8d06145dc5db6be325037a5"><td class="memTemplParams" colspan="2">template&lt;class ConfigL_t , class ConfigR_t , class Tangent_t &gt; </td></tr>
 <tr class="memitem:a67d6a057d8d06145dc5db6be325037a5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#a67d6a057d8d06145dc5db6be325037a5">difference</a> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Eigen::MatrixBase&lt; Tangent_t &gt; &amp;d)</td></tr>
 <tr class="memdesc:a67d6a057d8d06145dc5db6be325037a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the tangent vector that must be integrated during one unit time to go from q0 to q1  <a href="#a67d6a057d8d06145dc5db6be325037a5">More...</a><br /></td></tr>
@@ -193,6 +197,10 @@ Default implementations</h2></td></tr>
 template&lt;class ConfigL_t , class ConfigR_t , class ConfigOut_t &gt; </td></tr>
 <tr class="memitem:ac0726c04079db44b7eacfc71e99600d0"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>interpolate_impl</b> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Scalar &amp;u, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="separator:ac0726c04079db44b7eacfc71e99600d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29b18d02815589e2ed066ed48f08670"><td class="memTemplParams" colspan="2"><a class="anchor" id="ac29b18d02815589e2ed066ed48f08670"></a>
+template&lt;class Config_t &gt; </td></tr>
+<tr class="memitem:ac29b18d02815589e2ed066ed48f08670"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>normalize_impl</b> (const Eigen::MatrixBase&lt; Config_t &gt; &amp;qout)</td></tr>
+<tr class="separator:ac29b18d02815589e2ed066ed48f08670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79de3de5c2d69b59d7346379acba178"><td class="memTemplParams" colspan="2"><a class="anchor" id="ad79de3de5c2d69b59d7346379acba178"></a>
 template&lt;class ConfigL_t , class ConfigR_t &gt; </td></tr>
 <tr class="memitem:ad79de3de5c2d69b59d7346379acba178"><td class="memTemplItemLeft" align="right" valign="top">static double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>squaredDistance_impl</b> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1)</td></tr>
@@ -252,7 +260,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 <p>Default constructor.</p>
 <p>Prevent the construction of derived class. </p>
 
-<p>Definition at line <a class="el" href="operation-base_8hpp_source.html#l00267">267</a> of file <a class="el" href="operation-base_8hpp_source.html">operation-base.hpp</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hpp_source.html#l00278">278</a> of file <a class="el" href="operation-base_8hpp_source.html">operation-base.hpp</a>.</p>
 
 </div>
 </div>
@@ -280,7 +288,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 <p>Copy constructor</p>
 <p>Prevent the copy of derived class. </p>
 
-<p>Definition at line <a class="el" href="operation-base_8hpp_source.html#l00272">272</a> of file <a class="el" href="operation-base_8hpp_source.html">operation-base.hpp</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hpp_source.html#l00283">283</a> of file <a class="el" href="operation-base_8hpp_source.html">operation-base.hpp</a>.</p>
 
 </div>
 </div>
@@ -333,9 +341,9 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding velocity </dd></dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00096">96</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00105">105</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
-<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00129">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
+<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00138">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
 
 </div>
 </div>
@@ -381,7 +389,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding distance </dd></dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00120">120</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00129">129</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
 </div>
 </div>
@@ -435,7 +443,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 
 <p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00029">29</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
-<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00129">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
+<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00138">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
 
 </div>
 </div>
@@ -496,7 +504,9 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 
 <p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00052">52</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
-<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00129">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
+<p>References <a class="el" href="operation-base_8hxx_source.html#l00067">LieGroupOperationBase&lt; Derived &gt;::normalize()</a>.</p>
+
+<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00138">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
 
 </div>
 </div>
@@ -547,9 +557,40 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00129">129</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00138">138</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
-<p>References <a class="el" href="operation-base_8hxx_source.html#l00096">LieGroupOperationBase&lt; Derived &gt;::difference()</a>, <a class="el" href="operation-base_8hxx_source.html#l00029">LieGroupOperationBase&lt; Derived &gt;::integrate()</a>, <a class="el" href="operation-base_8hxx_source.html#l00052">LieGroupOperationBase&lt; Derived &gt;::interpolate()</a>, and <a class="el" href="operation-base_8hxx_source.html#l00083">LieGroupOperationBase&lt; Derived &gt;::randomConfiguration()</a>.</p>
+<p>References <a class="el" href="operation-base_8hxx_source.html#l00105">LieGroupOperationBase&lt; Derived &gt;::difference()</a>, <a class="el" href="operation-base_8hxx_source.html#l00029">LieGroupOperationBase&lt; Derived &gt;::integrate()</a>, <a class="el" href="operation-base_8hxx_source.html#l00052">LieGroupOperationBase&lt; Derived &gt;::interpolate()</a>, and <a class="el" href="operation-base_8hxx_source.html#l00092">LieGroupOperationBase&lt; Derived &gt;::randomConfiguration()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93613f8c5689475aee58a6cb283f56bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void normalize </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixBase&lt; Config_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>qout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Normalize the joint configuration given as input. For instance, the quaternion must unitary. </p>
+<dl class="section return"><dt>Returns</dt><dd>The normalized joint configuration. </dd></dl>
+
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00067">67</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+
+<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00052">LieGroupOperationBase&lt; Derived &gt;::interpolate()</a>.</p>
 
 </div>
 </div>
@@ -568,7 +609,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 <p>Get dimension of Lie Group vector representation</p>
 <p>For instance, for SO(3), the dimension of the vector representation is 4 (quaternion) while the dimension of the tangent space is 3. </p>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00234">234</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00243">243</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
 </div>
 </div>
@@ -588,9 +629,11 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 
 <p>Generate a random joint configuration, normalizing quaternions when necessary. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Do not take into account the joint limits. To shoot a configuration uniformingly depending on joint limits, see uniformySample</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The joint configuration</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Do not take into account the joint limits. To shoot a configuration uniformingly depending on joint limits, see randomConfiguration</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The joint configuration </dd></dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00075">75</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00084">84</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
 </div>
 </div>
@@ -634,9 +677,9 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The joint configuration </dd></dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00083">83</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00092">92</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
-<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00129">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
+<p>Referenced by <a class="el" href="operation-base_8hxx_source.html#l00138">LieGroupOperationBase&lt; Derived &gt;::isSameConfiguration()</a>.</p>
 
 </div>
 </div>
@@ -682,7 +725,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding distance </dd></dl>
 
-<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00109">109</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
+<p>Definition at line <a class="el" href="operation-base_8hxx_source.html#l00118">118</a> of file <a class="el" href="operation-base_8hxx_source.html">operation-base.hxx</a>.</p>
 
 </div>
 </div>
@@ -696,7 +739,7 @@ struct se3::LieGroupOperationBase&lt; Derived &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>se3</b></li><li class="navelem"><a class="el" href="structse3_1_1LieGroupOperationBase.html">LieGroupOperationBase</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 03:25:34 for pinocchio by
+    <li class="footer">Generated on Mon Jan 22 2018 04:16:47 for pinocchio by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,7 +1,39 @@
 var hierarchy =
 [
+    [ "ActuatorDataBase< Derived >", "structse3_1_1ActuatorDataBase.html", null ],
+    [ "ActuatorDataBase< ActuatorDCFirstOrderMotorData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
+      [ "ActuatorDCFirstOrderMotorData< Scalar_ >", "classse3_1_1ActuatorDCFirstOrderMotorData.html", null ]
+    ] ],
+    [ "ActuatorDataBase< ActuatorDCMotorData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
+      [ "ActuatorDCMotorData< Scalar_ >", "classse3_1_1ActuatorDCMotorData.html", null ]
+    ] ],
+    [ "ActuatorDataBase< ActuatorDCNonLinearMotorData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
+      [ "ActuatorDCNonLinearMotorData< Scalar_ >", "classse3_1_1ActuatorDCNonLinearMotorData.html", null ]
+    ] ],
+    [ "ActuatorModelBase< Derived >", "structse3_1_1ActuatorModelBase.html", null ],
+    [ "ActuatorModelBase< ActuatorDCFirstOrderMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
+      [ "ActuatorDCFirstOrderMotorModel< Scalar_ >", "classse3_1_1ActuatorDCFirstOrderMotorModel.html", null ]
+    ] ],
+    [ "ActuatorModelBase< ActuatorDCMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
+      [ "ActuatorDCMotorModel< Scalar_ >", "classse3_1_1ActuatorDCMotorModel.html", null ]
+    ] ],
+    [ "ActuatorModelBase< ActuatorDCNonLinearMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
+      [ "ActuatorDCNonLinearMotorModel< Scalar_ >", "classse3_1_1ActuatorDCNonLinearMotorModel.html", null ]
+    ] ],
+    [ "adb_traits< C >", "structse3_1_1adb__traits.html", null ],
+    [ "adb_traits< ActuatorDCFirstOrderMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCFirstOrderMotorData_3_01Scalar___01_4_01_4.html", null ],
+    [ "adb_traits< ActuatorDCMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCMotorData_3_01Scalar___01_4_01_4.html", null ],
+    [ "adb_traits< ActuatorDCNonLinearMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCNonLinearMotorData_3_01Scalar___01_4_01_4.html", null ],
     [ "AlgorithmCheckerBase< AlgorithmCheckerDerived >", "structse3_1_1AlgorithmCheckerBase.html", null ],
+    [ "AlgorithmCheckerBase< AlgorithmCheckerList< BOOST_PP_ENUM_PARAMS(PINOCCHIO_ALGO_CHECKER_LIST_MAX_LIST_SIZE, D)> >", "structse3_1_1AlgorithmCheckerBase.html", [
+      [ "AlgorithmCheckerList<>", "structse3_1_1AlgorithmCheckerList.html", null ]
+    ] ],
     [ "Symmetric3Tpl< _Scalar, _Options >::AlphaSkewSquare", "structse3_1_1Symmetric3Tpl_1_1AlphaSkewSquare.html", null ],
+    [ "amb_traits< C >", "structse3_1_1amb__traits.html", null ],
+    [ "amb_traits< ActuatorDCFirstOrderMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCFirstOrderMotorModel_3_01Scalar___01_4_01_4.html", null ],
+    [ "amb_traits< ActuatorDCMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCMotorModel_3_01Scalar___01_4_01_4.html", null ],
+    [ "amb_traits< ActuatorDCNonLinearMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCNonLinearMotorModel_3_01Scalar___01_4_01_4.html", null ],
+    [ "amb_traits< Derived >", "structse3_1_1amb__traits.html", null ],
     [ "JointSphericalZYXTpl< _Scalar, _Options >::BiasSpherical", "structse3_1_1JointSphericalZYXTpl_1_1BiasSpherical.html", null ],
     [ "ForceSetTpl< _Scalar, _Options >::Block", "structse3_1_1ForceSetTpl_1_1Block.html", null ],
     [ "CartesianVector3< axis >", "structse3_1_1prismatic_1_1CartesianVector3.html", null ],
@@ -36,19 +68,16 @@ var hierarchy =
     [ "ConstraintBase< se3::ConstraintTpl< _Dim, _Scalar, _Options > >", "classse3_1_1ConstraintBase.html", null ],
     [ "JointSphericalZYXTpl< _Scalar, _Options >::ConstraintRotationalSubspace", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace.html", null ],
     [ "ConstraintRotationalSubspace", "structse3_1_1ConstraintRotationalSubspace.html", null ],
+    [ "ConstraintPlanar::ConstraintTranspose", "structse3_1_1ConstraintPlanar_1_1ConstraintTranspose.html", null ],
     [ "JointSphericalZYXTpl< _Scalar, _Options >::ConstraintRotationalSubspace::ConstraintTranspose", "structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace_1_1ConstraintTranspose.html", null ],
     [ "ConstraintTranslationSubspace::ConstraintTranspose", "structse3_1_1ConstraintTranslationSubspace_1_1ConstraintTranspose.html", null ],
-    [ "ConstraintPlanar::ConstraintTranspose", "structse3_1_1ConstraintPlanar_1_1ConstraintTranspose.html", null ],
-    [ "Data", "structse3_1_1Data.html", null ],
     [ "DifferentiateStepAlgo< LieGroup_t, JointModel >", "structse3_1_1DifferentiateStepAlgo.html", null ],
     [ "Dispatch< Algo >", "structse3_1_1details_1_1Dispatch.html", null ],
     [ "exception", null, [
       [ "Exception", "classse3_1_1Exception.html", null ]
     ] ],
     [ "FilterFrame", "structse3_1_1details_1_1FilterFrame.html", null ],
-    [ "ForceBase< Derived >", "classse3_1_1ForceBase.html", [
-      [ "ForceTpl< double, 0 >", "classse3_1_1ForceTpl.html", null ]
-    ] ],
+    [ "ForceBase< Derived >", "classse3_1_1ForceBase.html", null ],
     [ "ForceBase< ForceTpl< _Scalar, _Options > >", "classse3_1_1ForceBase.html", [
       [ "ForceTpl< _Scalar, _Options >", "classse3_1_1ForceTpl.html", null ]
     ] ],
@@ -60,9 +89,6 @@ var hierarchy =
     [ "InertiaBase< Derived >", "classse3_1_1InertiaBase.html", null ],
     [ "InertiaBase< InertiaTpl< _Scalar, _Options > >", "classse3_1_1InertiaBase.html", [
       [ "InertiaTpl< _Scalar, _Options >", "classse3_1_1InertiaTpl.html", null ]
-    ] ],
-    [ "InertiaBase< InertiaTpl< double, _Options > >", "classse3_1_1InertiaBase.html", [
-      [ "InertiaTpl< double, 0 >", "classse3_1_1InertiaTpl.html", null ]
     ] ],
     [ "IntegrateStepAlgo< LieGroup_t, JointModel >", "structse3_1_1IntegrateStepAlgo.html", null ],
     [ "InterpolateStepAlgo< LieGroup_t, JointModel >", "structse3_1_1InterpolateStepAlgo.html", null ],
@@ -176,7 +202,6 @@ var hierarchy =
     [ "LuaKey", "structLuaKey.html", null ],
     [ "LuaTable", "structLuaTable.html", null ],
     [ "LuaTableNode", "structLuaTableNode.html", null ],
-    [ "Model", "structse3_1_1Model.html", null ],
     [ "MotionBase< Derived >", "classse3_1_1MotionBase.html", null ],
     [ "MotionBase< BiasZero >", "classse3_1_1MotionBase.html", [
       [ "BiasZero", "structse3_1_1BiasZero.html", null ]
@@ -202,9 +227,6 @@ var hierarchy =
     [ "MotionBase< MotionTpl< _Scalar, _Options > >", "classse3_1_1MotionBase.html", [
       [ "MotionTpl< _Scalar, _Options >", "classse3_1_1MotionTpl.html", null ]
     ] ],
-    [ "MotionBase< MotionTpl< double, _Options > >", "classse3_1_1MotionBase.html", [
-      [ "MotionTpl< double, 0 >", "classse3_1_1MotionTpl.html", null ]
-    ] ],
     [ "MotionBase< MotionTpl< Scalar, _Options > >", "classse3_1_1MotionBase.html", [
       [ "MotionTpl< Scalar, Options >", "classse3_1_1MotionTpl.html", null ]
     ] ],
@@ -212,6 +234,7 @@ var hierarchy =
       [ "MotionTranslation", "structse3_1_1MotionTranslation.html", null ]
     ] ],
     [ "JointSphericalZYXTpl< _Scalar, _Options >::MotionSpherical", "structse3_1_1JointSphericalZYXTpl_1_1MotionSpherical.html", null ],
+    [ "NormalizeStepAlgo< LieGroup_t, JointModel >", "structse3_1_1NormalizeStepAlgo.html", null ],
     [ "LieGroupTpl::operation< JointModel >", "structse3_1_1LieGroupTpl_1_1operation.html", null ],
     [ "LieGroupTpl::operation< JointModelComposite >", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelComposite_01_4.html", null ],
     [ "LieGroupTpl::operation< JointModelFreeFlyer >", "structse3_1_1LieGroupTpl_1_1operation_3_01JointModelFreeFlyer_01_4.html", null ],
@@ -233,8 +256,8 @@ var hierarchy =
       [ "SE3Tpl< Scalar, Options >", "classse3_1_1SE3Tpl.html", null ]
     ] ],
     [ "SE3Revolute< axis >", "structse3_1_1SE3Revolute.html", null ],
-    [ "SizeDepType< NV >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_1_1SegmentReturn.html", null ],
     [ "SizeDepType< Eigen::Dynamic >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_3_01Eigen_1_1Dynamic_01_4_1_1SegmentReturn.html", null ],
+    [ "SizeDepType< NV >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_1_1SegmentReturn.html", null ],
     [ "SizeDepType< NV >", "structse3_1_1SizeDepType.html", null ],
     [ "SizeDepType< Eigen::Dynamic >", "structse3_1_1SizeDepType_3_01Eigen_1_1Dynamic_01_4.html", null ],
     [ "Symmetric3Tpl< _Scalar, _Options >::SkewSquare", "structse3_1_1Symmetric3Tpl_1_1SkewSquare.html", null ],
@@ -258,8 +281,8 @@ var hierarchy =
       [ "JointModelVisitor< IsSameConfigurationStep< LieGroup_t > >", "structse3_1_1fusion_1_1JointModelVisitor.html", [
         [ "IsSameConfigurationStep< LieGroup_t >", "structse3_1_1IsSameConfigurationStep.html", null ]
       ] ],
-      [ "JointModelVisitor< NormalizeStep >", "structse3_1_1fusion_1_1JointModelVisitor.html", [
-        [ "NormalizeStep", "structse3_1_1NormalizeStep.html", null ]
+      [ "JointModelVisitor< NormalizeStep< LieGroup_t > >", "structse3_1_1fusion_1_1JointModelVisitor.html", [
+        [ "NormalizeStep< LieGroup_t >", "structse3_1_1NormalizeStep.html", null ]
       ] ],
       [ "JointModelVisitor< RandomConfigurationStep< LieGroup_t > >", "structse3_1_1fusion_1_1JointModelVisitor.html", [
         [ "RandomConfigurationStep< LieGroup_t >", "structse3_1_1RandomConfigurationStep.html", null ]
@@ -445,28 +468,20 @@ var hierarchy =
     [ "traits< struct ConstraintRotationalSubspace >", "structse3_1_1traits_3_01struct_01ConstraintRotationalSubspace_01_4.html", null ],
     [ "traits< VectorSpaceOperation< Size > >", "structse3_1_1traits_3_01VectorSpaceOperation_3_01Size_01_4_01_4.html", null ],
     [ "ConstraintTpl< _Dim, _Scalar, _Options >::Transpose", "structse3_1_1ConstraintTpl_1_1Transpose.html", null ],
-    [ "ConstraintRotationalSubspace::TransposeConst", "structse3_1_1ConstraintRotationalSubspace_1_1TransposeConst.html", null ],
-    [ "ConstraintPrismatic< axis >::TransposeConst", "structse3_1_1ConstraintPrismatic_1_1TransposeConst.html", null ],
-    [ "ConstraintRevolute< axis >::TransposeConst", "structse3_1_1ConstraintRevolute_1_1TransposeConst.html", null ],
     [ "ConstraintIdentity::TransposeConst", "structse3_1_1ConstraintIdentity_1_1TransposeConst.html", null ],
-    [ "ConstraintPrismaticUnaligned::TransposeConst", "structse3_1_1ConstraintPrismaticUnaligned_1_1TransposeConst.html", null ],
     [ "ConstraintRevoluteUnaligned::TransposeConst", "structse3_1_1ConstraintRevoluteUnaligned_1_1TransposeConst.html", null ],
+    [ "ConstraintPrismatic< axis >::TransposeConst", "structse3_1_1ConstraintPrismatic_1_1TransposeConst.html", null ],
+    [ "ConstraintPrismaticUnaligned::TransposeConst", "structse3_1_1ConstraintPrismaticUnaligned_1_1TransposeConst.html", null ],
+    [ "ConstraintRevolute< axis >::TransposeConst", "structse3_1_1ConstraintRevolute_1_1TransposeConst.html", null ],
+    [ "ConstraintRotationalSubspace::TransposeConst", "structse3_1_1ConstraintRotationalSubspace_1_1TransposeConst.html", null ],
+    [ "UrdfTree", "structse3_1_1urdf_1_1details_1_1UrdfTree.html", null ],
     [ "vector< T >", null, [
-      [ "aligned_vector< Eigen::Vector3d >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< JointData >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< JointDataVariant >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< JointModel >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< JointModelVariant >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< Matrix6x >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::ForceTpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::FrameTpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::GeometryObject >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::InertiaTpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::InertiaTpl::Matrix6 >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::MotionTpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::se3::SE3Tpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< se3::SE3Tpl >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< Transformation_t >", "classse3_1_1container_1_1aligned__vector.html", null ],
-      [ "aligned_vector< T >", "classse3_1_1container_1_1aligned__vector.html", null ]
+      [ "aligned_vector< JointDataVariant >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< JointModelVariant >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< se3::GeometryObject >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< se3::se3::SE3Tpl >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< se3::SE3Tpl >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< Transformation_t >", "structse3_1_1container_1_1aligned__vector.html", null ],
+      [ "aligned_vector< T >", "structse3_1_1container_1_1aligned__vector.html", null ]
     ] ]
 ];

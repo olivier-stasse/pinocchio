@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['j',['J',['../structse3_1_1Data.html#aca87f2c33db894a4c77f53c9ff0bcf78',1,'se3::Data']]],
-  ['jcom',['Jcom',['../structse3_1_1Data.html#a7d1284d1d73c6463bb648aa2c8335168',1,'se3::Data']]],
-  ['jminvjt',['JMinvJt',['../structse3_1_1Data.html#ae0be0a3d54552003895ca2854b1c85d3',1,'se3::Data']]],
-  ['jointplacements',['jointPlacements',['../structse3_1_1JointModelComposite.html#a3e58647061344067c2272f2b890df4df',1,'se3::JointModelComposite::jointPlacements()'],['../structse3_1_1Model.html#a3e58647061344067c2272f2b890df4df',1,'se3::Model::jointPlacements()']]],
-  ['joints',['joints',['../structse3_1_1JointDataComposite.html#a07cd5dbc7b9f44452c4ce9516b0d0693',1,'se3::JointDataComposite::joints()'],['../structse3_1_1JointModelComposite.html#a64ff8505bc8abbba289b1946c58283ba',1,'se3::JointModelComposite::joints()'],['../structse3_1_1Model.html#a64ff8505bc8abbba289b1946c58283ba',1,'se3::Model::joints()'],['../structse3_1_1Data.html#a07cd5dbc7b9f44452c4ce9516b0d0693',1,'se3::Data::joints()']]]
+  ['m_5fidx_5fq',['m_idx_q',['../structse3_1_1JointModelComposite.html#a332739c75a09f24c10fee03a56bfc5cd',1,'se3::JointModelComposite']]],
+  ['m_5fidx_5fv',['m_idx_v',['../structse3_1_1JointModelComposite.html#a8f16b9d757c434dc8ea9602d20894553',1,'se3::JointModelComposite']]],
+  ['m_5fnq',['m_nq',['../structse3_1_1JointModelComposite.html#af6099861d37706bb1be1572a3ac6b25e',1,'se3::JointModelComposite']]],
+  ['m_5fnqs',['m_nqs',['../structse3_1_1JointModelComposite.html#a73dcfd5680896115f7edcd9789c7179d',1,'se3::JointModelComposite']]],
+  ['m_5fnvs',['m_nvs',['../structse3_1_1JointModelComposite.html#a5f42eb2f03f73f01cbe587e000b19c16',1,'se3::JointModelComposite']]],
+  ['max_5fnv',['max_nv',['../structse3_1_1JointModelComposite.html#a92bbf2365660afff00be8237e0bdd72d',1,'se3::JointModelComposite']]],
+  ['meshcolor',['meshColor',['../structse3_1_1GeometryObject.html#a07be5a1c64954bf91d7480f40f31bfaa',1,'se3::GeometryObject']]],
+  ['meshpath',['meshPath',['../structse3_1_1GeometryObject.html#a17b634ca379f4d73cab08389afd9140d',1,'se3::GeometryObject']]],
+  ['meshscale',['meshScale',['../structse3_1_1GeometryObject.html#a4096e187ba373a759b58424ba7deb80e',1,'se3::GeometryObject']]],
+  ['meshtexturepath',['meshTexturePath',['../structse3_1_1GeometryObject.html#ae89a61deaf1256e7fbe7cea0df0940bb',1,'se3::GeometryObject']]]
 ];

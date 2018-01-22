@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structse3_1_1JointModelBase.html" title="JointModelBase\&lt; JointModel\lPrismatic\&lt; axis \&gt; \&gt;" alt="" coords="5,5,196,47"/>
-<area shape="rect" id="node2" href="$structse3_1_1JointModelPrismatic.html" title="JointModelPrismatic\l\&lt; axis \&gt;" alt="" coords="244,5,384,47"/>
+<area shape="rect" id="node1" href="$structse3_1_1JointDataBase.html" title="JointDataBase\&lt; JointData\lFreeFlyer \&gt;" alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" href="$structse3_1_1JointDataFreeFlyer.html" title="JointDataFreeFlyer" alt="" coords="229,13,363,39"/>
 </map>

@@ -17,10 +17,9 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
+        [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ]
@@ -30,16 +29,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classse3_1_1JointInterpolateVisitor.html#a35ffc33ddb76d7f3c21ff4307f5133e8",
-"group__Geometric__group.html",
-"structse3_1_1ConstraintRevoluteUnaligned_1_1TransposeConst.html#a5757ff77f8f0357e2ef23f5e5606ae01",
-"structse3_1_1JointDataBase.html#a87be4c1e4319c2a33782a5c6c2417fae",
-"structse3_1_1JointModelComposite.html#a0083b178f67d8c0a89a5d88622b498e9",
-"structse3_1_1JointModelTranslation.html#a688b432118a88502ace22d8d24c8f10b",
-"structse3_1_1SpecialEuclideanOperation_3_013_01_4.html#a28ab39bc2960d148343a5f1e60655ffc",
-"structse3_1_1traits_3_01ConstraintRevolute_3_01axis_01_4_01_4.html#ae918ff2efc3eca7e2bc8a0b261cd198a",
-"structse3_1_1traits_3_01JointRevolute_3_01axis_01_4_01_4.html",
-"structse3_1_1traits_3_01SE3Tpl_3_01T_00_01U_01_4_01_4.html#a8387336829282f921640f396416f12e0"
+"classse3_1_1ForceTpl.html#af49e915581c583ef420ab3528b332fdc",
+"classse3_1_1SE3Tpl.html#a93878c555af32932d644a4336cf136de",
+"structse3_1_1ConstraintIdentity_1_1TransposeConst.html#af2d2814fa49cf49ae37bdb917daf1942",
+"structse3_1_1IsSameConfigurationStep.html",
+"structse3_1_1JointModelBase.html#a462ed4bfa4e9311cc717b7b55925b74c",
+"structse3_1_1JointModelSpherical.html#a0b7e46670ab433a25dfc9755232edc29",
+"structse3_1_1SpecialEuclideanOperation_3_013_01_4.html#a217a856fdcb0df926c1899f584a398b9",
+"structse3_1_1traits_3_01ConstraintRevoluteUnaligned_01_4.html#a8387336829282f921640f396416f12e0",
+"structse3_1_1traits_3_01JointRevoluteUnaligned_01_4.html",
+"structse3_1_1traits_3_01MotionTpl_3_01T_00_01U_01_4_01_4.html#af403f1890c231e7eb5d96fe5657c18e2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

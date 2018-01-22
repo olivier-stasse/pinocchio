@@ -38,7 +38,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::se3::SE3Tpl \&gt;">
+<g id="a_node4"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::se3::SE3Tpl \&gt;">
 <polygon fill="white" stroke="black" points="339,-164 339,-194 443,-194 443,-164 339,-164"/>
 <text text-anchor="start" x="347" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="391" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">::se3::SE3Tpl &gt;</text>

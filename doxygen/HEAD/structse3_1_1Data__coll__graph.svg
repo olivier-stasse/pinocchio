@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Matrix6x \&gt;">
+<g id="a_node2"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Matrix6x \&gt;">
 <polygon fill="white" stroke="black" points="390.5,-622.5 390.5,-641.5 525.5,-641.5 525.5,-622.5 390.5,-622.5"/>
 <text text-anchor="middle" x="458" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; Matrix6x &gt;</text>
 </a>
@@ -168,7 +168,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; JointData \&gt;">
+<g id="a_node5"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; JointData \&gt;">
 <polygon fill="white" stroke="black" points="388,-576.5 388,-595.5 528,-595.5 528,-576.5 388,-576.5"/>
 <text text-anchor="middle" x="458" y="-583.5" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; JointData &gt;</text>
 </a>
@@ -187,7 +187,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::InertiaTpl::Matrix6 \&gt;">
+<g id="a_node7"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::InertiaTpl::Matrix6 \&gt;">
 <polygon fill="white" stroke="black" points="403,-519 403,-549 513,-549 513,-519 403,-519"/>
 <text text-anchor="start" x="411" y="-537" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="458" y="-526" font-family="Helvetica,sans-Serif" font-size="10.00">::InertiaTpl::Matrix6 &gt;</text>
@@ -207,7 +207,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::ForceTpl \&gt;">
+<g id="a_node9"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::ForceTpl \&gt;">
 <polygon fill="white" stroke="black" points="406,-465 406,-495 510,-495 510,-465 406,-465"/>
 <text text-anchor="start" x="414" y="-483" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="458" y="-472" font-family="Helvetica,sans-Serif" font-size="10.00">::ForceTpl &gt;</text>
@@ -227,7 +227,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Eigen\l::Vector3d \&gt;">
+<g id="a_node11"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Eigen\l::Vector3d \&gt;">
 <polygon fill="white" stroke="black" points="401.5,-408 401.5,-438 514.5,-438 514.5,-408 401.5,-408"/>
 <text text-anchor="start" x="409.5" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; Eigen</text>
 <text text-anchor="middle" x="458" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">::Vector3d &gt;</text>
@@ -249,7 +249,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;">
+<g id="a_node13"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;">
 <polygon fill="white" stroke="black" points="406,-343 406,-373 510,-373 510,-343 406,-343"/>
 <text text-anchor="start" x="414" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="458" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">::SE3Tpl &gt;</text>
@@ -369,7 +369,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::MotionTpl \&gt;">
+<g id="a_node21"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::MotionTpl \&gt;">
 <polygon fill="white" stroke="black" points="406,-196 406,-226 510,-226 510,-196 406,-196"/>
 <text text-anchor="start" x="414" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="458" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">::MotionTpl &gt;</text>
@@ -444,7 +444,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;">
+<g id="a_node27"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;">
 <polygon fill="white" stroke="black" points="406,-21 406,-51 510,-51 510,-21 406,-21"/>
 <text text-anchor="start" x="414" y="-39" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; se3</text>
 <text text-anchor="middle" x="458" y="-28" font-family="Helvetica,sans-Serif" font-size="10.00">::InertiaTpl &gt;</text>

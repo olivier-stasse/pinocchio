@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['u',['U',['../structse3_1_1Data.html#a876761ab54760a59fa722f979718253b',1,'se3::Data']]],
-  ['unittests',['Unittests',['../group__unittest__group.html',1,'']]],
-  ['updatejointindexes',['updateJointIndexes',['../structse3_1_1JointModelComposite.html#af19db6fa52e03a99813901fe4b710bfd',1,'se3::JointModelComposite']]],
-  ['upperpositionlimit',['upperPositionLimit',['../structse3_1_1Model.html#a866e1d98fb10abe656e5232d6436bdda',1,'se3::Model']]]
+  ['vectorspaceoperation',['VectorSpaceOperation',['../structse3_1_1VectorSpaceOperation.html',1,'se3']]],
+  ['vectorspaceoperation',['VectorSpaceOperation',['../structse3_1_1VectorSpaceOperation.html#ae8608c39cbc3690622785339c189f3a3',1,'se3::VectorSpaceOperation::VectorSpaceOperation(int size=Size)'],['../structse3_1_1VectorSpaceOperation.html#aa59b6445c99eea97b75970dd8866bc1b',1,'se3::VectorSpaceOperation::VectorSpaceOperation(const LieGroupDerived &amp;other)']]]
 ];

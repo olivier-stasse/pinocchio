@@ -1,7 +1,7 @@
 <map id="Model" name="Model">
 <area shape="rect" id="node2" href="$classse3_1_1MotionTpl.html" title="MotionTpl\&lt; double, 0 \&gt;" alt="" coords="540,25,696,51"/>
 <area shape="rect" id="node3" href="$classse3_1_1MotionBase.html" title="MotionBase\&lt; MotionTpl\l\&lt; double, _Options \&gt; \&gt;" alt="" coords="254,5,414,47"/>
-<area shape="rect" id="node4" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;" alt="" coords="549,93,687,135"/>
+<area shape="rect" id="node4" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;" alt="" coords="549,93,687,135"/>
 <area shape="rect" id="node5" title="STL class. " alt="" coords="252,70,416,126"/>
 <area shape="rect" id="node10" title="STL class. " alt="" coords="252,150,416,206"/>
 <area shape="rect" id="node14" title="STL class. " alt="" coords="289,230,379,257"/>
@@ -9,7 +9,7 @@
 <area shape="rect" id="node18" title="STL class. " alt="" coords="252,361,416,417"/>
 <area shape="rect" id="node7" title="STL class. " alt="" coords="307,447,361,474"/>
 <area shape="rect" id="node8" title="STL class. " alt="" coords="5,447,147,474"/>
-<area shape="rect" id="node9" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointModel \&gt;" alt="" coords="521,167,715,194"/>
-<area shape="rect" id="node15" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::FrameTpl \&gt;" alt="" coords="549,272,687,313"/>
-<area shape="rect" id="node17" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;" alt="" coords="549,337,687,379"/>
+<area shape="rect" id="node9" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointModel \&gt;" alt="" coords="521,167,715,194"/>
+<area shape="rect" id="node15" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::FrameTpl \&gt;" alt="" coords="549,272,687,313"/>
+<area shape="rect" id="node17" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;" alt="" coords="549,337,687,379"/>
 </map>

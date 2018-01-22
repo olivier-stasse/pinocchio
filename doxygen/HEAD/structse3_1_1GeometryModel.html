@@ -44,7 +44,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a>
-   &#160;<span id="projectnumber">1.2.5-dirty</span>
+   &#160;<span id="projectnumber">1.2.6-3-g69bda-dirty</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,13 +113,12 @@ $(document).ready(function(){initNavTree('structse3_1_1GeometryModel.html','');}
 <div class="dynheader">
 Collaboration diagram for GeometryModel:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structse3_1_1GeometryModel__coll__graph.svg" width="1080" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structse3_1_1GeometryModel__coll__graph.svg" width="1080" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a859a931c7710d8ac2c593063e82b97e4"><td class="memItemLeft" align="right" valign="top">GeomIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1GeometryModel.html#a859a931c7710d8ac2c593063e82b97e4">addGeometryObject</a> (<a class="el" href="structse3_1_1GeometryObject.html">GeometryObject</a> object, const <a class="el" href="structse3_1_1Model.html">Model</a> &amp;model, const bool autofillJointParent=false)</td></tr>
+<tr class="memitem:a859a931c7710d8ac2c593063e82b97e4"><td class="memItemLeft" align="right" valign="top">GeomIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1GeometryModel.html#a859a931c7710d8ac2c593063e82b97e4">addGeometryObject</a> (<a class="el" href="structse3_1_1GeometryObject.html">GeometryObject</a> object, const Model &amp;model, const bool autofillJointParent=false)</td></tr>
 <tr class="memdesc:a859a931c7710d8ac2c593063e82b97e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a geometry object to a <a class="el" href="structse3_1_1GeometryModel.html">GeometryModel</a>.  <a href="#a859a931c7710d8ac2c593063e82b97e4">More...</a><br /></td></tr>
 <tr class="separator:a859a931c7710d8ac2c593063e82b97e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0ab7010bc7f359f6385ce13ee9a80a"><td class="memItemLeft" align="right" valign="top">GeomIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1GeometryModel.html#a1a0ab7010bc7f359f6385ce13ee9a80a">getGeometryId</a> (const std::string &amp;name) const </td></tr>
@@ -158,7 +157,7 @@ EIGEN_MAKE_ALIGNED_OPERATOR_NEW Index&#160;</td><td class="memItemRight" valign=
 <tr class="memdesc:ad091ac2945e2e4b4f76036481c4af2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of GeometryObjects. <br /></td></tr>
 <tr class="separator:ad091ac2945e2e4b4f76036481c4af2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14a7fbe2515d24f48d98ef49d47e9663"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14a7fbe2515d24f48d98ef49d47e9663"></a>
-<a class="el" href="classse3_1_1container_1_1aligned__vector.html">container::aligned_vector</a>&lt; <a class="el" href="structse3_1_1GeometryObject.html">GeometryObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1GeometryModel.html#a14a7fbe2515d24f48d98ef49d47e9663">geometryObjects</a></td></tr>
+<a class="el" href="structse3_1_1container_1_1aligned__vector.html">container::aligned_vector</a>&lt; <a class="el" href="structse3_1_1GeometryObject.html">GeometryObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1GeometryModel.html#a14a7fbe2515d24f48d98ef49d47e9663">geometryObjects</a></td></tr>
 <tr class="memdesc:a14a7fbe2515d24f48d98ef49d47e9663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of GeometryObjects used for collision computations. <br /></td></tr>
 <tr class="separator:a14a7fbe2515d24f48d98ef49d47e9663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae40b769ef0f1bfd98bf9e209833aebe5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae40b769ef0f1bfd98bf9e209833aebe5"></a>
@@ -254,7 +253,7 @@ std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operato
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structse3_1_1Model.html">Model</a> &amp;&#160;</td>
+          <td class="paramtype">const Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
         </tr>
         <tr>
@@ -289,8 +288,6 @@ std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operato
 <dl class="section note"><dt>Note</dt><dd>object is a nonconst copy to ease the insertion code. </dd></dl>
 
 <p>Definition at line <a class="el" href="multibody_2geometry_8hxx_source.html#l00054">54</a> of file <a class="el" href="multibody_2geometry_8hxx_source.html">multibody/geometry.hxx</a>.</p>
-
-<p>References <a class="el" href="model_8hpp_source.html#l00092">Model::frames</a>.</p>
 
 </div>
 </div>
@@ -517,7 +514,7 @@ std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operato
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>se3</b></li><li class="navelem"><a class="el" href="structse3_1_1GeometryModel.html">GeometryModel</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 03:25:34 for pinocchio by
+    <li class="footer">Generated on Mon Jan 22 2018 04:16:46 for pinocchio by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

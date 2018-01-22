@@ -30,9 +30,9 @@ var searchData=
   ['constraintrotationalsubspace',['ConstraintRotationalSubspace',['../structse3_1_1ConstraintRotationalSubspace.html',1,'se3']]],
   ['constrainttpl',['ConstraintTpl',['../classse3_1_1ConstraintTpl.html',1,'se3']]],
   ['constrainttranslationsubspace',['ConstraintTranslationSubspace',['../structse3_1_1ConstraintTranslationSubspace.html',1,'se3']]],
+  ['constrainttranspose',['ConstraintTranspose',['../structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace_1_1ConstraintTranspose.html',1,'se3::JointSphericalZYXTpl::ConstraintRotationalSubspace']]],
   ['constrainttranspose',['ConstraintTranspose',['../structse3_1_1ConstraintTranslationSubspace_1_1ConstraintTranspose.html',1,'se3::ConstraintTranslationSubspace']]],
   ['constrainttranspose',['ConstraintTranspose',['../structse3_1_1ConstraintPlanar_1_1ConstraintTranspose.html',1,'se3::ConstraintPlanar']]],
-  ['constrainttranspose',['ConstraintTranspose',['../structse3_1_1JointSphericalZYXTpl_1_1ConstraintRotationalSubspace_1_1ConstraintTranspose.html',1,'se3::JointSphericalZYXTpl::ConstraintRotationalSubspace']]],
   ['crbabackwardstep',['CrbaBackwardStep',['../structse3_1_1CrbaBackwardStep.html',1,'se3']]],
   ['crbaforwardstep',['CrbaForwardStep',['../structse3_1_1CrbaForwardStep.html',1,'se3']]],
   ['createjointdata',['CreateJointData',['../classse3_1_1CreateJointData.html',1,'se3']]]

@@ -44,7 +44,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a>
-   &#160;<span id="projectnumber">1.2.5-dirty</span>
+   &#160;<span id="projectnumber">1.2.6-3-g69bda-dirty</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -202,6 +202,10 @@ template&lt;class ConfigIn_t , class Velocity_t , class ConfigOut_t &gt; </td></
 template&lt;class ConfigL_t , class ConfigR_t , class ConfigOut_t &gt; </td></tr>
 <tr class="memitem:a4840e5ed14c0c14dd1c1ed81ff9f9390"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>interpolate_impl</b> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Scalar &amp;u, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="separator:a4840e5ed14c0c14dd1c1ed81ff9f9390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29b18d02815589e2ed066ed48f08670"><td class="memTemplParams" colspan="2"><a class="anchor" id="ac29b18d02815589e2ed066ed48f08670"></a>
+template&lt;class Config_t &gt; </td></tr>
+<tr class="memitem:ac29b18d02815589e2ed066ed48f08670"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>normalize_impl</b> (const Eigen::MatrixBase&lt; Config_t &gt; &amp;qout)</td></tr>
+<tr class="separator:ac29b18d02815589e2ed066ed48f08670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_structse3_1_1LieGroupOperationBase"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structse3_1_1LieGroupOperationBase')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structse3_1_1LieGroupOperationBase.html">LieGroupOperationBase&lt; SpecialOrthogonalOperation&lt; 2 &gt; &gt;</a></td></tr>
 <tr class="memitem:a948ceb4dd696f6d6d759a6bde76fcf65 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#a948ceb4dd696f6d6d759a6bde76fcf65">integrate</a> (const Eigen::MatrixBase&lt; ConfigIn_t &gt; &amp;q, const Eigen::MatrixBase&lt; Tangent_t &gt; &amp;v, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="memdesc:a948ceb4dd696f6d6d759a6bde76fcf65 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integrate joint's configuration for a tangent vector during one unit time.  <a href="#a948ceb4dd696f6d6d759a6bde76fcf65">More...</a><br /></td></tr>
@@ -209,6 +213,9 @@ template&lt;class ConfigL_t , class ConfigR_t , class ConfigOut_t &gt; </td></tr
 <tr class="memitem:aff72256afacb6f1aff6baa0b0d8c97cd inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#aff72256afacb6f1aff6baa0b0d8c97cd">interpolate</a> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Scalar &amp;u, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="memdesc:aff72256afacb6f1aff6baa0b0d8c97cd inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolation between two joint's configurations.  <a href="#aff72256afacb6f1aff6baa0b0d8c97cd">More...</a><br /></td></tr>
 <tr class="separator:aff72256afacb6f1aff6baa0b0d8c97cd inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93613f8c5689475aee58a6cb283f56bf inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#a93613f8c5689475aee58a6cb283f56bf">normalize</a> (const Eigen::MatrixBase&lt; Config_t &gt; &amp;qout)</td></tr>
+<tr class="memdesc:a93613f8c5689475aee58a6cb283f56bf inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the joint configuration given as input. For instance, the quaternion must unitary.  <a href="#a93613f8c5689475aee58a6cb283f56bf">More...</a><br /></td></tr>
+<tr class="separator:a93613f8c5689475aee58a6cb283f56bf inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d6a057d8d06145dc5db6be325037a5 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structse3_1_1LieGroupOperationBase.html#a67d6a057d8d06145dc5db6be325037a5">difference</a> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Eigen::MatrixBase&lt; Tangent_t &gt; &amp;d)</td></tr>
 <tr class="memdesc:a67d6a057d8d06145dc5db6be325037a5 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">the tangent vector that must be integrated during one unit time to go from q0 to q1  <a href="#a67d6a057d8d06145dc5db6be325037a5">More...</a><br /></td></tr>
 <tr class="separator:a67d6a057d8d06145dc5db6be325037a5 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,6 +240,9 @@ static TangentVector_t&#160;</td><td class="memItemRight" valign="bottom"><b>dif
 <tr class="memitem:ac0726c04079db44b7eacfc71e99600d0 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0726c04079db44b7eacfc71e99600d0"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>interpolate_impl</b> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1, const Scalar &amp;u, const Eigen::MatrixBase&lt; ConfigOut_t &gt; &amp;qout)</td></tr>
 <tr class="separator:ac0726c04079db44b7eacfc71e99600d0 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29b18d02815589e2ed066ed48f08670 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac29b18d02815589e2ed066ed48f08670"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>normalize_impl</b> (const Eigen::MatrixBase&lt; Config_t &gt; &amp;qout)</td></tr>
+<tr class="separator:ac29b18d02815589e2ed066ed48f08670 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79de3de5c2d69b59d7346379acba178 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad79de3de5c2d69b59d7346379acba178"></a>
 static double&#160;</td><td class="memItemRight" valign="bottom"><b>squaredDistance_impl</b> (const Eigen::MatrixBase&lt; ConfigL_t &gt; &amp;q0, const Eigen::MatrixBase&lt; ConfigR_t &gt; &amp;q1)</td></tr>
 <tr class="separator:ad79de3de5c2d69b59d7346379acba178 inherit pub_static_methods_structse3_1_1LieGroupOperationBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,7 +311,7 @@ struct se3::SpecialOrthogonalOperation&lt; 2 &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>se3</b></li><li class="navelem"><a class="el" href="structse3_1_1SpecialOrthogonalOperation_3_012_01_4.html">SpecialOrthogonalOperation&lt; 2 &gt;</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 03:25:34 for pinocchio by
+    <li class="footer">Generated on Mon Jan 22 2018 04:16:47 for pinocchio by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inertia',['Inertia',['../group__Inertia__group.html',1,'']]]
+  ['geometric',['Geometric',['../group__Geometric__group.html',1,'']]]
 ];

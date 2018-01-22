@@ -44,7 +44,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Transformation_t \&gt;">
+<g id="a_node4"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; Transformation_t \&gt;">
 <polygon fill="white" stroke="black" points="369,-102 369,-121 540,-121 540,-102 369,-102"/>
 <text text-anchor="middle" x="454.5" y="-109" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; Transformation_t &gt;</text>
 </a>
@@ -129,7 +129,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; JointData\lVariant \&gt;">
+<g id="a_node9"><a xlink:href="structse3_1_1container_1_1aligned__vector.html" target="_top" xlink:title="aligned_vector\&lt; JointData\lVariant \&gt;">
 <polygon fill="white" stroke="black" points="389,-51.5 389,-81.5 520,-81.5 520,-51.5 389,-51.5"/>
 <text text-anchor="start" x="397" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00">aligned_vector&lt; JointData</text>
 <text text-anchor="middle" x="454.5" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00">Variant &gt;</text>

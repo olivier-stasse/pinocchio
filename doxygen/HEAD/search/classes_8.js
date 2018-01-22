@@ -76,7 +76,7 @@ var searchData=
   ['jointmodelvisitor_3c_20integratestep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; IntegrateStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
   ['jointmodelvisitor_3c_20interpolatestep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; InterpolateStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
   ['jointmodelvisitor_3c_20issameconfigurationstep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; IsSameConfigurationStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
-  ['jointmodelvisitor_3c_20normalizestep_20_3e',['JointModelVisitor&lt; NormalizeStep &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
+  ['jointmodelvisitor_3c_20normalizestep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; NormalizeStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
   ['jointmodelvisitor_3c_20randomconfigurationstep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; RandomConfigurationStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
   ['jointmodelvisitor_3c_20squareddistancestep_3c_20liegroup_5ft_20_3e_20_3e',['JointModelVisitor&lt; SquaredDistanceStep&lt; LieGroup_t &gt; &gt;',['../structse3_1_1fusion_1_1JointModelVisitor.html',1,'se3::fusion']]],
   ['jointmotionvisitor',['JointMotionVisitor',['../classse3_1_1JointMotionVisitor.html',1,'se3']]],

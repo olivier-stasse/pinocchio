@@ -1,5 +1,5 @@
 <map id="Data" name="Data">
-<area shape="rect" id="node2" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; Matrix6x \&gt;" alt="" coords="526,62,706,89"/>
+<area shape="rect" id="node2" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; Matrix6x \&gt;" alt="" coords="526,62,706,89"/>
 <area shape="rect" id="node3" title="STL class. " alt="" coords="149,5,363,47"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="174,70,338,126"/>
 <area shape="rect" id="node8" title="STL class. " alt="" coords="169,151,343,221"/>
@@ -8,19 +8,19 @@
 <area shape="rect" id="node14" title="STL class. " alt="" coords="174,406,338,462"/>
 <area shape="rect" id="node22" title="STL class. " alt="" coords="174,718,338,774"/>
 <area shape="rect" id="node28" title="STL class. " alt="" coords="174,862,338,918"/>
-<area shape="rect" id="node5" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointData \&gt;" alt="" coords="523,123,709,150"/>
-<area shape="rect" id="node7" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl::Matrix6 \&gt;" alt="" coords="543,185,689,227"/>
-<area shape="rect" id="node9" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::ForceTpl \&gt;" alt="" coords="547,257,685,299"/>
-<area shape="rect" id="node11" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; Eigen\l::Vector3d \&gt;" alt="" coords="541,333,691,375"/>
-<area shape="rect" id="node13" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;" alt="" coords="547,420,685,461"/>
+<area shape="rect" id="node5" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointData \&gt;" alt="" coords="523,123,709,150"/>
+<area shape="rect" id="node7" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl::Matrix6 \&gt;" alt="" coords="543,185,689,227"/>
+<area shape="rect" id="node9" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::ForceTpl \&gt;" alt="" coords="547,257,685,299"/>
+<area shape="rect" id="node11" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; Eigen\l::Vector3d \&gt;" alt="" coords="541,333,691,375"/>
+<area shape="rect" id="node13" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;" alt="" coords="547,420,685,461"/>
 <area shape="rect" id="node15" href="$classse3_1_1InertiaTpl.html" title="InertiaTpl\&lt; double, 0 \&gt;" alt="" coords="539,487,693,514"/>
 <area shape="rect" id="node16" href="$classse3_1_1InertiaBase.html" title="InertiaBase\&lt; InertiaTpl\l\&lt; double, _Options \&gt; \&gt;" alt="" coords="178,485,334,527"/>
 <area shape="rect" id="node17" href="$classse3_1_1Symmetric3Tpl.html" title="Symmetric3Tpl\&lt; double, 0 \&gt;" alt="" coords="163,602,349,629"/>
 <area shape="rect" id="node19" href="$classse3_1_1InertiaTpl.html" title="InertiaTpl\&lt; _Scalar,\l _Options \&gt;" alt="" coords="548,543,684,584"/>
 <area shape="rect" id="node18" href="$structse3_1_1Symmetric3Tpl_1_1AlphaSkewSquare.html" title="AlphaSkewSquare" alt="" coords="191,551,321,578"/>
 <area shape="rect" id="node20" href="$classse3_1_1InertiaBase.html" title="InertiaBase\&lt; InertiaTpl\l\&lt; _Scalar, _Options \&gt; \&gt;" alt="" coords="175,653,337,695"/>
-<area shape="rect" id="node21" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::MotionTpl \&gt;" alt="" coords="547,616,685,657"/>
+<area shape="rect" id="node21" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::MotionTpl \&gt;" alt="" coords="547,616,685,657"/>
 <area shape="rect" id="node25" href="$classse3_1_1ForceTpl.html" title="ForceTpl\&lt; double, 0 \&gt;" alt="" coords="541,790,691,817"/>
 <area shape="rect" id="node26" href="$classse3_1_1ForceBase.html" title="Base interface for forces representation. " alt="" coords="178,797,334,839"/>
-<area shape="rect" id="node27" href="$classse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;" alt="" coords="547,849,685,891"/>
+<area shape="rect" id="node27" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::InertiaTpl \&gt;" alt="" coords="547,849,685,891"/>
 </map>

@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-202 276,-202 276,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="36.5,-0.5 36.5,-30.5 155.5,-30.5 155.5,-0.5 36.5,-0.5"/>
-<text text-anchor="start" x="44.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ActuatorDCMotorModel</text>
-<text text-anchor="middle" x="96" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Scalar_ &gt;</text>
+<polygon fill="#bfbfbf" stroke="black" points="101.5,-0.5 101.5,-30.5 220.5,-30.5 220.5,-0.5 101.5,-0.5"/>
+<text text-anchor="start" x="109.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ActuatorDCMotorModel</text>
+<text text-anchor="middle" x="161" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Scalar_ &gt;</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -27,13 +27,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#8b1a1a" d="M89.4643,-68.0254C88.9454,-55.258 89.3689,-40.9702 90.7347,-30.6846"/>
-<polygon fill="#8b1a1a" stroke="#8b1a1a" points="85.9885,-68.5158 90.1218,-78.2711 92.9741,-68.0675 85.9885,-68.5158"/>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#8b1a1a" d="M102.536,-68.0254C103.055,-55.258 102.631,-40.9702 101.265,-30.6846"/>
-<polygon fill="#8b1a1a" stroke="#8b1a1a" points="99.0259,-68.0675 101.878,-78.2711 106.012,-68.5158 99.0259,-68.0675"/>
+<path fill="none" stroke="#8b1a1a" d="M118.087,-70.3059C128.71,-56.9869 140.992,-41.5873 149.687,-30.6846"/>
+<polygon fill="#8b1a1a" stroke="#8b1a1a" points="115.234,-68.2707 111.735,-78.2711 120.706,-72.6354 115.234,-68.2707"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -59,10 +54,10 @@
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M186.865,-83.2162C166.494,-68.2594 135.229,-45.3035 115.2,-30.5974"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="184.989,-86.1809 195.121,-89.2781 189.132,-80.5385 184.989,-86.1809"/>
-<text text-anchor="middle" x="171.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> name_</text>
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M197.135,-80.5221C188.719,-65.611 176.773,-44.4462 168.957,-30.5974"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="194.114,-82.2898 202.077,-89.2781 200.21,-78.8491 194.114,-82.2898"/>
+<text text-anchor="middle" x="202.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> name_</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -73,7 +68,7 @@
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M216.256,-162.864C213.753,-145.861 210.164,-121.49 208.275,-108.659"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="212.796,-163.395 217.716,-172.778 219.722,-162.375 212.796,-163.395"/>
 </g>

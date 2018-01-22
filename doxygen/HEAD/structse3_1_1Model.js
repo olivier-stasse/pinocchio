@@ -14,7 +14,6 @@ var structse3_1_1Model =
     [ "addJointIndexToParentSubtrees", "structse3_1_1Model.html#ab2bb8a0b938f2fca38a386c6e37be738", null ],
     [ "appendBodyToJoint", "structse3_1_1Model.html#aae15e6e14e4367472ae14ee1844cebf5", null ],
     [ "check", "structse3_1_1Model.html#abe76f6a8ca9f2ce1bd482ecb5bb3e59c", null ],
-    [ "check", "structse3_1_1Model.html#ad5620a7d4db7a8348ee5e1af45eaba60", null ],
     [ "check", "structse3_1_1Model.html#a6ecddb2c44556b7acbc1723a968ff8bb", null ],
     [ "check", "structse3_1_1Model.html#a01bded1feb071ada741c6e5bd06efcf4", null ],
     [ "existBodyName", "structse3_1_1Model.html#a18e08c1ab9778028b1ec8e69a99674e2", null ],

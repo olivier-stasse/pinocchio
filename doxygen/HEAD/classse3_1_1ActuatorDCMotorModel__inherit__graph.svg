@@ -27,13 +27,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#8b1a1a" d="M54.327,-57.3757C54.0743,-48.214 54.4436,-38.5319 55.4351,-30.8916"/>
-<polygon fill="#8b1a1a" stroke="#8b1a1a" points="50.8323,-57.5693 54.8766,-67.3618 57.8217,-57.1845 50.8323,-57.5693"/>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#8b1a1a" d="M67.673,-57.3757C67.9257,-48.214 67.5564,-38.5319 66.5649,-30.8916"/>
-<polygon fill="#8b1a1a" stroke="#8b1a1a" points="64.1783,-57.1845 67.1234,-67.3618 71.1677,-57.5693 64.1783,-57.1845"/>
+<path fill="none" stroke="#8b1a1a" d="M61,-57.08C61,-48.0061 61,-38.4498 61,-30.8916"/>
+<polygon fill="#8b1a1a" stroke="#8b1a1a" points="57.5001,-57.3618 61,-67.3618 64.5001,-57.3619 57.5001,-57.3618"/>
 </g>
 </g>
 </svg>
