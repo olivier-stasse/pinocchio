@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structse3_1_1ConstraintPlanar_1_1ConstraintTranspose.html" title="ConstraintPlanar::Constraint\lTranspose" alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node1" href="$classse3_1_1ConstraintBase.html" title="ConstraintBase\&lt; Constraint\lRevolute\&lt; axis \&gt; \&gt;" alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$structse3_1_1ConstraintRevolute.html" title="ConstraintRevolute\l\&lt; axis \&gt;" alt="" coords="237,5,372,47"/>
 </map>

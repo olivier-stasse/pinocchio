@@ -8,5 +8,6 @@ var modules =
     [ "Spatial", "group__spatial__group.html", "group__spatial__group" ],
     [ "Tools", "group__tools__group.html", null ],
     [ "Benchmarks", "group__bench__group.html", null ],
-    [ "Unittests", "group__unittest__group.html", null ]
+    [ "Unittests", "group__unittest__group.html", null ],
+    [ "Linear motor model (second order)", "group__actuators__pneumatic__actuator.html", null ]
 ];

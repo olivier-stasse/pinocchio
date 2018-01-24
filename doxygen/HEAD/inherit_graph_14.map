@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,209,96,235"/>
-<area shape="rect" id="node2" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointData\lVariant \&gt;" alt="" coords="171,5,345,47"/>
-<area shape="rect" id="node3" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; JointModel\lVariant \&gt;" alt="" coords="167,71,349,112"/>
-<area shape="rect" id="node4" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::GeometryObject \&gt;" alt="" coords="189,136,327,177"/>
-<area shape="rect" id="node5" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::se3::SE3Tpl \&gt;" alt="" coords="189,201,327,243"/>
-<area shape="rect" id="node6" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; se3\l::SE3Tpl \&gt;" alt="" coords="189,267,327,308"/>
-<area shape="rect" id="node7" href="$structse3_1_1container_1_1aligned__vector.html" title="aligned_vector\&lt; Transformation_t \&gt;" alt="" coords="144,333,372,359"/>
-<area shape="rect" id="node8" href="$structse3_1_1container_1_1aligned__vector.html" title="Specialization of an std::vector with an aligned allocator. This specialization might be used when th..." alt="" coords="189,383,327,410"/>
+<area shape="rect" id="node1" href="$structse3_1_1adb__traits_3_01ActuatorDCNonLinearMotorData_3_01Scalar___01_4_01_4.html" title="adb_traits\&lt; ActuatorDCNon\lLinearMotorData\&lt; Scalar_ \&gt; \&gt;" alt="" coords="5,5,204,47"/>
 </map>

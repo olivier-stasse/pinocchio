@@ -1,6 +1,7 @@
 <map id="Motor models" name="Motor models">
-<area shape="rect" id="node1" href="$group__actuators__motor__group__sl__dc__motor.html" title="Linear motor model\l (second order)" alt="" coords="295,5,429,47"/>
-<area shape="rect" id="node4" href="$group__actuators__motor__group__nl__dc__motor.html" title="Non linear motor model." alt="" coords="281,71,443,98"/>
-<area shape="rect" id="node5" href="$group__actuators__motor__group__fl__dc__motor.html" title="DC linear model (first\l order)" alt="" coords="289,123,435,164"/>
-<area shape="rect" id="node3" href="$group__actuators__group.html" title="Actuators" alt="" coords="5,71,84,98"/>
+<area shape="rect" id="node1" href="$group__actuators__motor__group__tnl__dc__motor.html" title="Non linear motor model\l (temperature)" alt="" coords="283,5,441,47"/>
+<area shape="rect" id="node2" href="$group__actuators__motor__group__sl__dc__motor.html" title="Linear motor model\l (second order)" alt="" coords="295,71,429,112"/>
+<area shape="rect" id="node5" href="$group__actuators__motor__group__nl__dc__motor.html" title="Non linear motor model." alt="" coords="281,137,443,163"/>
+<area shape="rect" id="node6" href="$group__actuators__motor__group__fl__dc__motor.html" title="DC linear model (first\l order)" alt="" coords="289,188,435,229"/>
+<area shape="rect" id="node4" href="$group__actuators__group.html" title="Actuators" alt="" coords="5,107,84,134"/>
 </map>

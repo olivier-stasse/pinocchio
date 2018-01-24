@@ -44,7 +44,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname"><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a>
-   &#160;<span id="projectnumber">1.2.6-3-g69bda-dirty</span>
+   &#160;<span id="projectnumber">1.2.6-7-g6de3e-dirty</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -119,24 +119,45 @@ $(document).ready(function(){initNavTree('classse3_1_1ActuatorDCMotorData.html',
 <div class="dynheader">
 Inheritance diagram for ActuatorDCMotorData&lt; Scalar_ &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classse3_1_1ActuatorDCMotorData__inherit__graph.svg" width="202" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classse3_1_1ActuatorDCMotorData__inherit__graph.svg" width="202" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for ActuatorDCMotorData&lt; Scalar_ &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classse3_1_1ActuatorDCMotorData__coll__graph.svg" width="202" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classse3_1_1ActuatorDCMotorData__coll__graph.svg" width="202" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a742014d257e7ca856f32c77828bb0da0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a742014d257e7ca856f32c77828bb0da0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InternalParameters</b> { <br />
+&#160;&#160;<b>P_ROTOR_INERTIA</b> =6, 
+<br />
+&#160;&#160;<b>P_ROTOR_RESISTOR</b>, 
+<br />
+&#160;&#160;<b>P_TORQUE_CST</b>, 
+<br />
+&#160;&#160;<b>P_SPEED_TORQUE_GRD</b>, 
+<br />
+&#160;&#160;<b>P_BACK_EMF</b>, 
+<br />
+&#160;&#160;<b>P_THONE_RESISTOR</b>, 
+<br />
+&#160;&#160;<b>P_THTWO_RESISTOR</b>, 
+<br />
+&#160;&#160;<b>P_TA_RESISTOR</b>, 
+<br />
+&#160;&#160;<b>P_MAX_PERM_WINDING_T</b>, 
+<br />
+&#160;&#160;<b>P_THERM_TIME_CST_WINDING</b>
+<br />
+ }</td></tr>
+<tr class="separator:a742014d257e7ca856f32c77828bb0da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45df76abbf30bf2a67cc6ab728a94d48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45df76abbf30bf2a67cc6ab728a94d48"></a>
 typedef Scalar_&#160;</td><td class="memItemRight" valign="bottom"><b>Scalar_t</b></td></tr>
 <tr class="separator:a45df76abbf30bf2a67cc6ab728a94d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf3e102e770a9181e3b37fd9162767e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf3e102e770a9181e3b37fd9162767e1"></a>
-typedef Eigen::Matrix&lt; Scalar_, 10, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Parameters_t</b></td></tr>
-<tr class="separator:adf3e102e770a9181e3b37fd9162767e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec9bdbfb2488ed4deb1a0681d325665"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adec9bdbfb2488ed4deb1a0681d325665"></a>
+typedef Eigen::Matrix&lt; Scalar_, 13, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Parameters_t</b></td></tr>
+<tr class="separator:adec9bdbfb2488ed4deb1a0681d325665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a456d5f07e9b1f10653df4f689b15b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a456d5f07e9b1f10653df4f689b15b5"></a>
 typedef Eigen::Matrix&lt; Scalar_, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Observations_t</b></td></tr>
 <tr class="separator:a3a456d5f07e9b1f10653df4f689b15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +188,34 @@ const Parameters_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a c
 const S_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#ac59644c697e6d82c3eeb44313694bd42">S</a> () const </td></tr>
 <tr class="memdesc:ac59644c697e6d82c3eeb44313694bd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns selection matrix. <br /></td></tr>
 <tr class="separator:ac59644c697e6d82c3eeb44313694bd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6336ff4085554a9f1d54df0ec9cb197"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6336ff4085554a9f1d54df0ec9cb197"></a>
+Scalar_&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#ad6336ff4085554a9f1d54df0ec9cb197">getMaxPermissibleOverloadForONTime</a> (Scalar_ aDuration)</td></tr>
+<tr class="memdesc:ad6336ff4085554a9f1d54df0ec9cb197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum overload possible for a given duration. Implements </p><p class="formulaDsp">
+\[ K = \sqrt{\frac{1}{1 - exp\left[-\frac{t_{on}}{\tau_W}\right] }} \]
+</p>
+<p>. <br /></td></tr>
+<tr class="separator:ad6336ff4085554a9f1d54df0ec9cb197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3be0e7c3405abf4a65789dfe7f6195f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3be0e7c3405abf4a65789dfe7f6195f"></a>
+Scalar_&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#ad3be0e7c3405abf4a65789dfe7f6195f">getOverloadForCurrent</a> (Scalar_ aCurrent, Scalar_ TS)</td></tr>
+<tr class="memdesc:ad3be0e7c3405abf4a65789dfe7f6195f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the overload for a given motor current and the current stator temperature ( \( T_S \)) Implements </p><p class="formulaDsp">
+\[ K = \frac{I_{mot}}{I_N} \sqrt{ \frac{T_{max} -25}{T_{max}-T_S} \frac{R_{th1}}{R_{th1}+R_{th2}} } \]
+</p>
+<p>. <br /></td></tr>
+<tr class="separator:ad3be0e7c3405abf4a65789dfe7f6195f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ea0a68406fedbcfea05c600145528e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59ea0a68406fedbcfea05c600145528e"></a>
+Scalar_&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a59ea0a68406fedbcfea05c600145528e">getMaxONTimeForK</a> (Scalar_ aK)</td></tr>
+<tr class="memdesc:a59ea0a68406fedbcfea05c600145528e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum ON time at a given overload factor K Implements </p><p class="formulaDsp">
+\[ t_{on} = \tau_{W} ln \frac{K^2}{K^2-1} \]
+</p>
+<p>. <br /></td></tr>
+<tr class="separator:a59ea0a68406fedbcfea05c600145528e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584c3c75a6d0d062832e00fd33fed966"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a584c3c75a6d0d062832e00fd33fed966"></a>
+Scalar_&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a584c3c75a6d0d062832e00fd33fed966">getMaxCurrentForK</a> (Scalar_ aK)</td></tr>
+<tr class="memdesc:a584c3c75a6d0d062832e00fd33fed966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum current \( I_{mot}\) at a given overload factor \( K\). Implements </p><p class="formulaDsp">
+\[ I_{mot} = K I_n \sqrt{ \frac{T_{max}-T_S}{T_{max} -25} \frac{R_{th1}+R_{th2}}{R_{th1}} }\]
+</p>
+<p>. <br /></td></tr>
+<tr class="separator:a584c3c75a6d0d062832e00fd33fed966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a869df1c696fb1ce29d6585f56e6f8f96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a869df1c696fb1ce29d6585f56e6f8f96"></a>
 Observations_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>h</b> ()</td></tr>
 <tr class="separator:a869df1c696fb1ce29d6585f56e6f8f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,16 +238,36 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a9ba1bf9e4cfca431acfea223fb608a4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a9ba1bf9e4cfca431acfea223fb608a4a">backEMF</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
 <tr class="memdesc:a9ba1bf9e4cfca431acfea223fb608a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminal Inductance (Henry)  <a href="#a9ba1bf9e4cfca431acfea223fb608a4a">More...</a><br /></td></tr>
 <tr class="separator:a9ba1bf9e4cfca431acfea223fb608a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93136a54277e79dbd8e4dbedd49201e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93136a54277e79dbd8e4dbedd49201e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a93136a54277e79dbd8e4dbedd49201e7">resistorOne</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
+<tr class="memdesc:a93136a54277e79dbd8e4dbedd49201e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gearhead thermal resistance \( R_{th1} \) at ambient temperature units: K/W. <br /></td></tr>
+<tr class="separator:a93136a54277e79dbd8e4dbedd49201e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf010321921b0a2a44865b01eb464444"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf010321921b0a2a44865b01eb464444"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#aaf010321921b0a2a44865b01eb464444">resistorTwo</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
+<tr class="memdesc:aaf010321921b0a2a44865b01eb464444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Winding thermal resistance \( R_{th2} \) at ambient temperature units: K/W. <br /></td></tr>
+<tr class="separator:aaf010321921b0a2a44865b01eb464444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ccd1efe9158792f349ff68b3c21e7bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ccd1efe9158792f349ff68b3c21e7bd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a7ccd1efe9158792f349ff68b3c21e7bd">resistorTA</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
+<tr class="memdesc:a7ccd1efe9158792f349ff68b3c21e7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Winding resistance \( R_{ta} \) at ambient temperature units: Ohms. <br /></td></tr>
+<tr class="separator:a7ccd1efe9158792f349ff68b3c21e7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa2f8fcd49e781f25ea2fea49f5baac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1aa2f8fcd49e781f25ea2fea49f5baac"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a1aa2f8fcd49e781f25ea2fea49f5baac">maxPermissibleWindingTemp</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
+<tr class="memdesc:a1aa2f8fcd49e781f25ea2fea49f5baac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max. permissible winding temperature \( T_{max} \) catalog value units: C. <br /></td></tr>
+<tr class="separator:a1aa2f8fcd49e781f25ea2fea49f5baac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbec3c0c889238e53e315e19226ed1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdbec3c0c889238e53e315e19226ed1e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#acdbec3c0c889238e53e315e19226ed1e">thermTimeCstWinding</a> (Scalar_ <a class="el" href="classse3_1_1ActuatorDCMotorData.html#adb757e3c6a7ec1cfa342e4e313c9cc83">c</a>)</td></tr>
+<tr class="memdesc:acdbec3c0c889238e53e315e19226ed1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Therm. time constant winding \( \tau_W \) units: seconds (s) <br /></td></tr>
+<tr class="separator:acdbec3c0c889238e53e315e19226ed1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d16253544950e620858c878be27332"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1d16253544950e620858c878be27332"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setS</b> (S_t &amp;<a class="el" href="classse3_1_1ActuatorDCMotorData.html#ac59644c697e6d82c3eeb44313694bd42">S</a>)</td></tr>
 <tr class="separator:ac1d16253544950e620858c878be27332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9dabff9e1b50bb75c1f92b1372043440"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dabff9e1b50bb75c1f92b1372043440"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#a9dabff9e1b50bb75c1f92b1372043440">updateFirstThreeParameters</a> ()</td></tr>
-<tr class="memdesc:a9dabff9e1b50bb75c1f92b1372043440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the first three parameters of the actuators: <br /></td></tr>
-<tr class="separator:a9dabff9e1b50bb75c1f92b1372043440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7a063ca47cc077bfa4ea517fc755e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf7a063ca47cc077bfa4ea517fc755e9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classse3_1_1ActuatorDCMotorData.html#abf7a063ca47cc077bfa4ea517fc755e9">updateParameters</a> ()</td></tr>
+<tr class="memdesc:abf7a063ca47cc077bfa4ea517fc755e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the first three parameters of the actuators: <br /></td></tr>
+<tr class="separator:abf7a063ca47cc077bfa4ea517fc755e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -254,9 +323,9 @@ class se3::ActuatorDCMotorData&lt; Scalar_ &gt;</h3>
 <p>Terminal Inductance (Henry) </p>
 <p>Back electro magnetic force constant \( K_b \) It is the inverse of the speed torque gradient constant ( \(k_N\)) in Maxon datasheet. More exactly the maxon datasheet gives rpm/V. So it is \(\frac{60}{ 2 \pi k_N)}\) </p>
 
-<p>Definition at line <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00170">170</a> of file <a class="el" href="dc-linear-motor-model_8hpp_source.html">dc-linear-motor-model.hpp</a>.</p>
+<p>Definition at line <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00183">183</a> of file <a class="el" href="dc-linear-motor-model_8hpp_source.html">dc-linear-motor-model.hpp</a>.</p>
 
-<p>References <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00139">ActuatorDCMotorData&lt; Scalar_ &gt;::c()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00196">ActuatorDCMotorData&lt; Scalar_ &gt;::c_</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00136">ActuatorDCMotorData&lt; Scalar_ &gt;::h()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00193">ActuatorDCMotorData&lt; Scalar_ &gt;::h_</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00142">ActuatorDCMotorData&lt; Scalar_ &gt;::S()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00199">ActuatorDCMotorData&lt; Scalar_ &gt;::S_</a>, and <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00181">ActuatorDCMotorData&lt; Scalar_ &gt;::updateFirstThreeParameters()</a>.</p>
+<p>References <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00152">ActuatorDCMotorData&lt; Scalar_ &gt;::c()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00270">ActuatorDCMotorData&lt; Scalar_ &gt;::c_</a>, and <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00254">ActuatorDCMotorData&lt; Scalar_ &gt;::updateParameters()</a>.</p>
 
 </div>
 </div>
@@ -285,9 +354,9 @@ class se3::ActuatorDCMotorData&lt; Scalar_ &gt;</h3>
 <p>Rotor inertia (kg/m2) - \( B_m \). </p>
 <p>Internal parameters of the actuator. </p>
 
-<p>Definition at line <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00146">146</a> of file <a class="el" href="dc-linear-motor-model_8hpp_source.html">dc-linear-motor-model.hpp</a>.</p>
+<p>Definition at line <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00159">159</a> of file <a class="el" href="dc-linear-motor-model_8hpp_source.html">dc-linear-motor-model.hpp</a>.</p>
 
-<p>References <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00139">ActuatorDCMotorData&lt; Scalar_ &gt;::c()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00196">ActuatorDCMotorData&lt; Scalar_ &gt;::c_</a>, and <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00181">ActuatorDCMotorData&lt; Scalar_ &gt;::updateFirstThreeParameters()</a>.</p>
+<p>References <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00152">ActuatorDCMotorData&lt; Scalar_ &gt;::c()</a>, <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00270">ActuatorDCMotorData&lt; Scalar_ &gt;::c_</a>, and <a class="el" href="dc-linear-motor-model_8hpp_source.html#l00254">ActuatorDCMotorData&lt; Scalar_ &gt;::updateParameters()</a>.</p>
 
 </div>
 </div>
@@ -300,7 +369,7 @@ class se3::ActuatorDCMotorData&lt; Scalar_ &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>se3</b></li><li class="navelem"><a class="el" href="classse3_1_1ActuatorDCMotorData.html">ActuatorDCMotorData</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 04:16:46 for pinocchio by
+    <li class="footer">Generated on Wed Jan 24 2018 16:17:00 for pinocchio by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -10,6 +10,12 @@ var hierarchy =
     [ "ActuatorDataBase< ActuatorDCNonLinearMotorData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
       [ "ActuatorDCNonLinearMotorData< Scalar_ >", "classse3_1_1ActuatorDCNonLinearMotorData.html", null ]
     ] ],
+    [ "ActuatorDataBase< ActuatorDCTempNonLinearMotorData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
+      [ "ActuatorDCTempNonLinearMotorData< Scalar_ >", "classse3_1_1ActuatorDCTempNonLinearMotorData.html", null ]
+    ] ],
+    [ "ActuatorDataBase< PneumaticTwoChambersData< Scalar_ > >", "structse3_1_1ActuatorDataBase.html", [
+      [ "PneumaticTwoChambersData< Scalar_ >", "classse3_1_1PneumaticTwoChambersData.html", null ]
+    ] ],
     [ "ActuatorModelBase< Derived >", "structse3_1_1ActuatorModelBase.html", null ],
     [ "ActuatorModelBase< ActuatorDCFirstOrderMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
       [ "ActuatorDCFirstOrderMotorModel< Scalar_ >", "classse3_1_1ActuatorDCFirstOrderMotorModel.html", null ]
@@ -20,10 +26,17 @@ var hierarchy =
     [ "ActuatorModelBase< ActuatorDCNonLinearMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
       [ "ActuatorDCNonLinearMotorModel< Scalar_ >", "classse3_1_1ActuatorDCNonLinearMotorModel.html", null ]
     ] ],
+    [ "ActuatorModelBase< ActuatorDCTempNonLinearMotorModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
+      [ "ActuatorDCTempNonLinearMotorModel< Scalar_ >", "classse3_1_1ActuatorDCTempNonLinearMotorModel.html", null ]
+    ] ],
+    [ "ActuatorModelBase< PneumaticTwoChambersModel< Scalar_ > >", "structse3_1_1ActuatorModelBase.html", [
+      [ "PneumaticTwoChambersModel< Scalar_ >", "classse3_1_1PneumaticTwoChambersModel.html", null ]
+    ] ],
     [ "adb_traits< C >", "structse3_1_1adb__traits.html", null ],
     [ "adb_traits< ActuatorDCFirstOrderMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCFirstOrderMotorData_3_01Scalar___01_4_01_4.html", null ],
     [ "adb_traits< ActuatorDCMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCMotorData_3_01Scalar___01_4_01_4.html", null ],
     [ "adb_traits< ActuatorDCNonLinearMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCNonLinearMotorData_3_01Scalar___01_4_01_4.html", null ],
+    [ "adb_traits< ActuatorDCTempNonLinearMotorData< Scalar_ > >", "structse3_1_1adb__traits_3_01ActuatorDCTempNonLinearMotorData_3_01Scalar___01_4_01_4.html", null ],
     [ "AlgorithmCheckerBase< AlgorithmCheckerDerived >", "structse3_1_1AlgorithmCheckerBase.html", null ],
     [ "AlgorithmCheckerBase< AlgorithmCheckerList< BOOST_PP_ENUM_PARAMS(PINOCCHIO_ALGO_CHECKER_LIST_MAX_LIST_SIZE, D)> >", "structse3_1_1AlgorithmCheckerBase.html", [
       [ "AlgorithmCheckerList<>", "structse3_1_1AlgorithmCheckerList.html", null ]
@@ -33,7 +46,9 @@ var hierarchy =
     [ "amb_traits< ActuatorDCFirstOrderMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCFirstOrderMotorModel_3_01Scalar___01_4_01_4.html", null ],
     [ "amb_traits< ActuatorDCMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCMotorModel_3_01Scalar___01_4_01_4.html", null ],
     [ "amb_traits< ActuatorDCNonLinearMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCNonLinearMotorModel_3_01Scalar___01_4_01_4.html", null ],
+    [ "amb_traits< ActuatorDCTempNonLinearMotorModel< Scalar_ > >", "structse3_1_1amb__traits_3_01ActuatorDCTempNonLinearMotorModel_3_01Scalar___01_4_01_4.html", null ],
     [ "amb_traits< Derived >", "structse3_1_1amb__traits.html", null ],
+    [ "amb_traits< PneumaticTwoChambersModel< Scalar_ > >", "structse3_1_1amb__traits.html", null ],
     [ "JointSphericalZYXTpl< _Scalar, _Options >::BiasSpherical", "structse3_1_1JointSphericalZYXTpl_1_1BiasSpherical.html", null ],
     [ "ForceSetTpl< _Scalar, _Options >::Block", "structse3_1_1ForceSetTpl_1_1Block.html", null ],
     [ "CartesianVector3< axis >", "structse3_1_1prismatic_1_1CartesianVector3.html", null ],
@@ -256,8 +271,8 @@ var hierarchy =
       [ "SE3Tpl< Scalar, Options >", "classse3_1_1SE3Tpl.html", null ]
     ] ],
     [ "SE3Revolute< axis >", "structse3_1_1SE3Revolute.html", null ],
-    [ "SizeDepType< Eigen::Dynamic >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_3_01Eigen_1_1Dynamic_01_4_1_1SegmentReturn.html", null ],
     [ "SizeDepType< NV >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_1_1SegmentReturn.html", null ],
+    [ "SizeDepType< Eigen::Dynamic >::SegmentReturn< Mat >", "structse3_1_1SizeDepType_3_01Eigen_1_1Dynamic_01_4_1_1SegmentReturn.html", null ],
     [ "SizeDepType< NV >", "structse3_1_1SizeDepType.html", null ],
     [ "SizeDepType< Eigen::Dynamic >", "structse3_1_1SizeDepType_3_01Eigen_1_1Dynamic_01_4.html", null ],
     [ "Symmetric3Tpl< _Scalar, _Options >::SkewSquare", "structse3_1_1Symmetric3Tpl_1_1SkewSquare.html", null ],
@@ -470,10 +485,10 @@ var hierarchy =
     [ "ConstraintTpl< _Dim, _Scalar, _Options >::Transpose", "structse3_1_1ConstraintTpl_1_1Transpose.html", null ],
     [ "ConstraintIdentity::TransposeConst", "structse3_1_1ConstraintIdentity_1_1TransposeConst.html", null ],
     [ "ConstraintRevoluteUnaligned::TransposeConst", "structse3_1_1ConstraintRevoluteUnaligned_1_1TransposeConst.html", null ],
-    [ "ConstraintPrismatic< axis >::TransposeConst", "structse3_1_1ConstraintPrismatic_1_1TransposeConst.html", null ],
     [ "ConstraintPrismaticUnaligned::TransposeConst", "structse3_1_1ConstraintPrismaticUnaligned_1_1TransposeConst.html", null ],
-    [ "ConstraintRevolute< axis >::TransposeConst", "structse3_1_1ConstraintRevolute_1_1TransposeConst.html", null ],
     [ "ConstraintRotationalSubspace::TransposeConst", "structse3_1_1ConstraintRotationalSubspace_1_1TransposeConst.html", null ],
+    [ "ConstraintRevolute< axis >::TransposeConst", "structse3_1_1ConstraintRevolute_1_1TransposeConst.html", null ],
+    [ "ConstraintPrismatic< axis >::TransposeConst", "structse3_1_1ConstraintPrismatic_1_1TransposeConst.html", null ],
     [ "UrdfTree", "structse3_1_1urdf_1_1details_1_1UrdfTree.html", null ],
     [ "vector< T >", null, [
       [ "aligned_vector< JointDataVariant >", "structse3_1_1container_1_1aligned__vector.html", null ],
