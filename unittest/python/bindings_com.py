@@ -28,7 +28,9 @@ class TestComBindings(TestCase):
         data2 = self.model.createData()
         pin.centerOfMass(self.model,data2,self.q)
         self.assertApprox(mass,data2.mass[0])
-
+        for i in range(0,10):
+            pin.updateFramePlacements(self.model,self.data)
+        
     def test_subtree_masses(self):
         pin.computeSubtreeMasses(self.model,self.data)
 
