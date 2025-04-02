@@ -203,7 +203,7 @@ BOOST_AUTO_TEST_CASE(build_reduced_model_fromURDF)
       full_model.getJointId("head_2_joint"));
 
   Eigen::VectorXd q_default_complete;
-  q_default_complete = Eigen::VectorXd::Zero(full_model.nq);
+  q_default_complete = pinocchio::neutral(full_model);
   pinocchio::Model reduced_model;
   reduced_model = pinocchio::buildReducedModel(
       full_model, locked_joint_ids, q_default_complete);
