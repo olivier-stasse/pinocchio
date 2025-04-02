@@ -6,6 +6,7 @@
 #include <fstream>
 #include <streambuf>
 
+#include "pinocchio/algorithm/model.hpp"
 #include "pinocchio/multibody/model.hpp"
 #include "pinocchio/parsers/urdf.hpp"
 
@@ -174,6 +175,75 @@ BOOST_AUTO_TEST_CASE(build_model_from_UDRFTree)
   pinocchio::urdf::buildModel(urdfTree, model);
 
   BOOST_CHECK(model.nq == 31);
+}
+
+BOOST_AUTO_TEST_CASE(build_reduced_model_fromURDF)
+{
+  const std::string filename =
+    PINOCCHIO_MODEL_DIR
+    + std::string("/example-robot-data/robots/tiago_description/robots/tiago.urdf");
+
+  ::urdf::ModelInterfaceSharedPtr urdfTree = ::urdf::parseURDFFile(filename);
+
+  pinocchio::Model full_model;
+  pinocchio::urdf::buildModel(urdfTree, full_model);
+
+  std::cout << "full pinocchio::Model for tiago:"<< full_model.nq << std::endl;
+  /// Build locked_joints
+  std::vector<pinocchio::JointIndex> locked_joint_ids;
+  locked_joint_ids.push_back(
+      full_model.getJointId("wheel_left_joint"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("wheel_right_joint"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("torso_lift_joint"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("head_1_joint"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("head_2_joint"));
+
+  Eigen::VectorXd q_default_complete;
+  q_default_complete = Eigen::VectorXd::Zero(full_model.nq);
+  pinocchio::Model reduced_model;
+  reduced_model = pinocchio::buildReducedModel(
+      full_model, locked_joint_ids, q_default_complete);
+
+  std::cout << "pinocchio::Model for tiago:"<< reduced_model.nq << std::endl;
+  BOOST_CHECK(reduced_model.nq == 43);
+}
+
+BOOST_AUTO_TEST_CASE(build_reduced_model_fromURDF_2)
+{
+  const std::string filename =
+    PINOCCHIO_MODEL_DIR
+    + std::string("/example-robot-data/robots/simple_humanoid_description/urdf/simple_humanoid.urdf");
+
+  ::urdf::ModelInterfaceSharedPtr urdfTree = ::urdf::parseURDFFile(filename);
+
+  pinocchio::Model full_model;
+  pinocchio::urdf::buildModel(urdfTree, full_model);
+
+  /// Build locked_joints
+  std::vector<pinocchio::JointIndex> locked_joint_ids;
+  locked_joint_ids.push_back(
+      full_model.getJointId("RARM_WRIST_Y"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("RARM_WRIST_P"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("RARM_WRIST_R"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("LARM_WRIST_P"));
+  locked_joint_ids.push_back(
+      full_model.getJointId("LARM_WRIST_R"));
+
+  Eigen::VectorXd q_default_complete;
+  q_default_complete = Eigen::VectorXd::Zero(full_model.nq);
+  pinocchio::Model reduced_model;
+  reduced_model = pinocchio::buildReducedModel(
+      full_model, locked_joint_ids, q_default_complete);
+
+  std::cout << "pinocchio::Model for simple_humanoid:"<< reduced_model.nq << std::endl;
+  BOOST_CHECK(reduced_model.nq == 24);
 }
 
 BOOST_AUTO_TEST_CASE(build_model_with_joint)
